@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1582
+
+- A full install stages and swaps, so a failure leaves a game that runs
+
+Behind the scenes:
+- 23 more ActiveMode forwarders go
+
 ## v0.0.29-P1576
 
 - A game patch older than the exe does not mount
