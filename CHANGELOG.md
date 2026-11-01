@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1588
+
+- Actions_series reaches GitHub under the pacing line *(fix attempt - still being verified)*
+- The self-update patch is the whole pack, never a diff
+
+Behind the scenes:
+- Clear art the game never reaches
+
 ## v0.0.29-P1582
 
 - A full install stages and swaps, so a failure leaves a game that runs
