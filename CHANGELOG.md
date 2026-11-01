@@ -1,6 +1,799 @@
 # The Fortress - changelog
 
-Every build that changed something, newest first. Each entry is that build's own changes.
+Cumulative per-build release notes, newest first. REGENERATED from the
+release bodies by .github/scripts/repair_release_notes.py on every
+publish - do not edit by hand.
+
+## v0.0.29-P1576
+
+- A game patch older than the exe does not mount
+- A mode switch's tab fallback is not a visit and a boot banner pick counts down the mute *(fix attempt - still being verified)*
+- Repair crash, bounded window, cumulative changelog *(fix attempt - still being verified)*
+- The edit-mode grid follows the surface when it resizes *(fix attempt - still being verified)*
+- A lagging release source cannot offer an older build
+- The shell memory probe reads the window and door tables from RoomSkin *(fix attempt - still being verified)*
+- A barrier's refusal stops naming a tool the player may not own *(fix attempt - still being verified)*
+- The wallet row measures its amounts live, not the width they first had *(fix attempt - still being verified)*
+- A run resumed after a reload keeps its loot lists *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Maxed word's margin reads the body row's gap token
+- The gear and settings dialogs stand on the modal host
+- 40 more ActiveMode forwarders go
+- The eight roster and cloud dialogs stand on the modal host
+- The picker and the filter panel share one set of filter words
+- The Throne popup's buttons come from the role factory
+
+## v0.0.29-P1538
+
+- A bow already equipped lights Shoot when Explore opens *(fix attempt - still being verified)*
+- A building improve asks once and recruit Back keeps the typed name *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The upgrade juice hold is the row flash's Tween
+
+## v0.0.29-P1534
+
+- The hero's ring outline redraws only when it changes *(fix attempt - still being verified)*
+- Walkthrough cue faults and the frozen figure *(fix attempt - still being verified)*
+- The HUD default asks the arrangement owner *(fix attempt - still being verified)*
+- The in-sight walk asks the fight once, not once per mob *(fix attempt - still being verified)*
+- Every bar button has the one touch floor *(fix attempt - still being verified)*
+- Comparing a second item on a slot keeps the slot lit *(fix attempt - still being verified)*
+- The gear menu and Settings bugs from the review *(fix attempt - still being verified)*
+- The currency list is built once, not on every header update *(fix attempt - still being verified)*
+- A room's extent is scanned once per map, not on every draw *(fix attempt - still being verified)*
+- Fog skips the repaint and upload when the drawn cells are unchanged *(fix attempt - still being verified)*
+- A fortress open in another copy stays safe on the roster *(fix attempt - still being verified)*
+- The head's hair and eyes name normal maps that exist *(fix attempt - still being verified)*
+- A change in the juice window still refreshes, and one show is one rebuild *(fix attempt - still being verified)*
+- The selection screen remembers Expand all and Collapse all *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Delete the classic furniture path
+- One way to follow the play surface
+- Barrier_section_ids is built once
+- Forge and Research bind one slot pick handler
+
+## v0.0.29-P1501
+
+- A load rebuilds on a clean fortress *(fix attempt - still being verified)*
+
+## v0.0.29-P1496
+
+- A swapped recruit resumes free and clears its saved row *(fix attempt - still being verified)*
+- A painted Arena never fetches the floor painting or the stakes *(fix attempt - still being verified)*
+- A craftsman with nothing left to say offers no tap target *(fix attempt - still being verified)*
+
+## v0.0.29-P1481
+
+- Management tab bugs from the reviews *(fix attempt - still being verified)*
+- A leftover name fragment is redacted and the post still goes out
+- Discord posts ping nobody, feedback limits by address, a spent KV budget gives sign-in a clear refusal *(fix attempt - still being verified)*
+- A quit on the name page brings the naming back at the fort *(fix attempt - still being verified)*
+- HUD window font, fade slider, reset and speed highlight bugs *(fix attempt - still being verified)*
+- The keep's build goal "!" is live, pickups keep theirs and each goal arms its own *(fix attempt - still being verified)*
+- Email-code routes answer a null body and keep upstream text in the log *(fix attempt - still being verified)*
+
+## v0.0.29-P1465
+
+- The management screen and gear menu choose their arrangement through the owner *(fix attempt - still being verified)*
+- The sub-tab scroll survives a rebuild and a closed modal lets go of its opener *(fix attempt - still being verified)*
+- The Fort Pierce topic is announced as a Rune, the deploy hint names Camp *(fix attempt - still being verified)*
+- Hits, death, treasure and refusals sound in Explore *(fix attempt - still being verified)*
+- The Unaffordable word is a laid-out line that follows the wallet
+
+Behind the scenes:
+- The audited literals read their config owners, values unchanged
+- Queue slot buttons are found by action, not by their words
+
+## v0.0.29-P1449
+
+- The bramble patch's dock hole has a wide wobbled rim *(fix attempt - still being verified)*
+- The Snowbound Pass wears the zoning ring, not the floating target
+- A native map built before the hero reports an error, and the native-room comments say what it does *(fix attempt - still being verified)*
+- In the QA layout a too-narrow side column folds to a spine
+- The snapshot gear picker reads the equip rule
+- Walk the crossings and stand no shut hedge over the cut *(fix attempt - still being verified)*
+- Select Building stays the only surface when a build unlocks a tab *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Slinger plate and Storage Chest drafts
+- Barracks and Hall share one hero-roster parent
+- A maker's pick starts or resumes through one owner
+- No component reads GameManager for the wallet
+- Aim rotation moves from _process to ExploreView
+- One owner cancels a queue slot and keeps its progress
+- Tuning constants move from ActiveMode to GameConstants
+- The dead autoload guards go
+- The Vale bake lays each section in its own function
+- Map_data rulings move to the decision log, and two review leftovers close
+- Remove the dead see-through circle; the hero key stays for the outline
+- The portrait framing moves out of the live model, under 50 KB
+- The leveling and production headers take the wallet from their host
+- The painted entrances' pictures read their record
+- The cost button takes the wallet from its host
+- The minimap's marks draw one kind per function
+- The slot and assign greens are tokens
+- The picker's affordability sweep runs on a Timer
+- The cottage shell builds its walls and openings in their own functions
+- A palette applies from one table
+- The gear stat lines split into one helper per row kind
+- The equipment window takes its gear wiring from a host
+- A hero's inspect content asks its host, not GameManager
+
+## v0.0.29-P1390
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The header sync has one owner
+- Three comments say what the code does now
+- The gear doll takes its seen state from its host
+- A unit's inspect content asks its host, not GameManager
+
+## v0.0.29-P1382
+
+- The release feed read fails loudly with its HTTP status and retries transient errors
+
+Behind the scenes:
+- The art switcher takes its re-skin signal from its host
+- The salvage offer takes its value from the doll's host
+- The coordinator wires the reveal chip, not the explore HUD
+- Delete the colour lookup and the four constants only it read
+- The stat row takes its affordability and cap checks instead of reading GameManager
+- Delete five unread size vars and the settings exit signal nothing fires
+- The wallet row takes its amounts instead of reading GameManager
+
+## v0.0.29-P1366
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.29-P1360
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Delete eight functions nothing calls
+- The top bar's info modals take their data instead of reading GameManager
+- One slot title owner, and Forge and Research queue fixes
+
+## v0.0.29-P1351
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.29-P1341
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.29-P1328
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.29-P1316
+
+- The light cloth pieces, the Flamehorn Helm and the Rusty Vambraces wear their paintings
+
+Behind the scenes:
+- The queue-busy row button reads the one tap height
+- The Gear menu sub-page Back button reads the one tap height
+- The queue's small buttons read the one tap height
+
+## v0.0.29-P1298
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The release-notes Continue button reads the one tap height
+
+## v0.0.29-P1269
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.29-P1219
+
+- Battlements tier 1 from round 7, Nathan's Yes
+
+## v0.0.29-P1205
+
+- Looting is noticeable - the loot card and the fly-to-bag cue
+
+## v0.0.29-P1196
+
+- The Vale arena is redrawn upright with its gate on the north, never flipped *(fix attempt - still being verified)*
+
+## v0.0.29-P1188
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- _refresh_content picks one renderer per tab body
+- One slice assembly in CavePanels for the cave and the Arena's near band
+
+## v0.0.29-P1179
+
+- Spawn countdowns keep running out of sight, a refill out of sight names nothing *(fix attempt - still being verified)*
+
+## v0.0.29-P1172
+
+- Battlements tier 1 from round 6, round-7 draft drawn from tier 2's camera
+
+Behind the scenes:
+- The cave's mockup and skin boards stop shipping in the export
+
+## v0.0.29-P1163
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Every Settings button reads the one tap height
+
+## v0.0.29-P1150
+
+- The Mason says the bandit camp is out of reach until the bridge opens
+- The guardhouse and cartographic rows Nathan kept go live, battlements tiers 2-5 too, and a round-6 tier 1 wall
+
+## v0.0.29-P1127
+
+- The six building rows Nathan kept go live, and round-5 redraws of the three he sent back
+- The Mason's House portrait Nathan kept goes live, so every craftsman house has its painting and the picker art guard covers them all
+
+## v0.0.29-P1119
+
+- Maintenance build (no player-facing changes in this range).
+
+## v0.0.29-P1105
+
+- The swamp's painted dock is back, centred on the road, and its sprite no longer draws over the painting
+
+Behind the scenes:
+- Signed Windows builds go on Infrastructure as a future line, once more people are playing
+
+## v0.0.29-P1063
+
+- The seven kept craftsman houses get their portraits; Mason's House round-2 draft
+
+Behind the scenes:
+- Custom controls shipped (v57)
+
+## v0.0.29-P1035
+
+- Normal is the default graphics set for a fresh save
+
+Behind the scenes:
+- The chooser's exit row builds in one private RosterScreen._add_exit_row
+
+## v0.0.29-P1027
+
+- The first axe is the Dull Woodsman's Axe - name and id, save v11 carries old saves over *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The chooser's local-saves block builds in one private RosterScreen._add_local_saves_block
+- The chooser's sign-in doors build in one private RosterScreen._add_sign_in_doors
+
+## v0.0.29-P1017
+
+- Re-cut the canopies along the opened east road
+- A way out held by a fight says why, once per step in
+- Launcher 1.1.70 - anonymous diagnostics, Send report, facts header, Start checks for updates
+- Open the painted road south of the East Bridge
+- The cave's commons are tuned to the club - bare loses, +3 wins one then rests, rats < spiders < bats
+- The Actions window defaults shown on every surface, docks slid clear of the Log and Character run
+- Patched Hide wears the Ranger pauldron and bracers
+- The player raises one of ten banners when they take the throne, and it becomes the commander's badge
+- A roster still is a square bust, head to waist
+
+Behind the scenes:
+- The keep's screen build and listeners are two private ManagementScreen methods
+- The floater section says what the game draws today, type colors and crit decided for v0.0.31
+
+## v0.0.29-P979
+
+- Hall roster rows show the hero's own look as a portrait
+- The last barrier taps and why each was dropped ride Copy game data
+
+Behind the scenes:
+- The Settings Accessibility pane builds in SettingsRows
+
+## v0.0.29-P967
+
+- One world-alert rule - the keep's card retires its "!", a person wears the "!" or the target, never both
+- HeroStills, one still per hero look for the roster rows
+- On the Xbox an A press on a text field raises the console keyboard
+
+Behind the scenes:
+- The Settings Developer pane builds in SettingsRows
+- The Settings Audio pane builds in SettingsRows
+- The Settings Gameplay pane builds in SettingsRows
+
+## v0.0.29-P951
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The Settings Controls pane builds in SettingsRows
+- The Settings bottom action bar builds in SettingsRows
+
+## v0.0.29-P935
+
+- Send_feedback reports whether the post went out, so Controls Send toasts only a real send
+- Settings Controls sends a note and the control mapping
+- The site's launcher download buttons serve from our R2 server *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The desktop window display state moves into SettingsDisplayState
+- The Numbers and Color Palette choice rows build in SettingsRows
+
+## v0.0.29-P920
+
+- A key bound to two shortcuts shows its chip in red
+- The bramble's cleared patch keeps the painting's own pixels over the dock, so the live dock shows centred on the road *(fix attempt - still being verified)*
+- Round-4 Fortress building redraws for Nathan's 9 redraw picks, drafts in testing/
+- The combat HUD confirm is a forced choice - no dim tap, Escape consumed
+- 42 resource nodes step off the trees, rocks and bushes they were drawn over - one or two cells each onto open grass
+
+Behind the scenes:
+- The battle, components and GUI management docs follow the code
+
+## v0.0.29-P903
+
+- A new fortress opens on play, and a first-step walk hint
+
+Behind the scenes:
+- The re-entry drop has one home - the MapData forwarder retires
+
+## v0.0.29-P891
+
+- The mobs' flow field keeps off every chest cell, so no mob routes into a chest
+
+## v0.0.29-P882
+
+- A badge in a scrolling list stays in the list's clip, raised over its neighbours
+
+Behind the scenes:
+- Popup controls are marked by one owner, so the door counts only answers
+
+## v0.0.29-P863
+
+- Repoint every TheFortressGame/builds reference to VZQZ-Games/builds - the API's 301 broke the publish step *(fix attempt - still being verified)*
+- Every sub-tab stands the one tap height, ThemeConstants.TOUCH_TARGET, not a literal 28 *(fix attempt - still being verified)*
+- Settings > Display is one Full screen button on the web; boot and revert leave the browser's window alone
+- The combat stats overlay's tabs stand the one tap height, ThemeConstants.TOUCH_TARGET, not a literal 32 *(fix attempt - still being verified)*
+- A held fortress opened offline hears its uploads stay paused
+
+Behind the scenes:
+- Answer buttons on the shared role button; DismissButton retired
+- Armour looks on the 2D hero follow weight and colour
+- The dim's tap reads the live answer count; layout capture, email and recruitment pass the popup door's tap
+
+## v0.0.29-P795
+
+- The heavy armour tier - rusty breastplate, all 68 frames
+
+## v0.0.29-P783
+
+- The sidecar gate fails a PR that adds an image with no .import sidecar
+- Commit the ten throne banner .png.import sidecars with mipmaps on
+- The throne banner set - ten banners promoted with their generator
+
+## v0.0.29-P776
+
+- The 3D decor builder skips an id the art table never declares, so field_plot no longer warns on every build *(fix attempt - still being verified)*
+
+## v0.0.29-P771
+
+- A test boot with no live scene never installs one under /root - the nightly resume-journey leak *(fix attempt - still being verified)*
+- #10310 take A is the ruined keep, at fortress_s1's scale
+
+Behind the scenes:
+- Re-take the active-mode process golden for take A's ruin (#10310, #10391)
+
+## v0.0.29-P759
+
+- The Barracks-built popup reads its text from the recruit gates instead of promising heroes at Lv 1
+
+## v0.0.29-P754
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Delete the box-ops copies of the Desk package's scripts, wrappers and stage rules (#10324, #10194 PR 6c)
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-fort-walkthrough-debugging-v29)
+- The quiet check writes Waits for #10017 for a Ship-press wait and never labels a standing card needs-nathan (#10370, #10371)
+- Desk-ledger-gate takes a byte-identical mirror of a staged Preview folder, so the Ship press can publish from the scratchpad
+- #5887 cottage_banker and cottage_dine drafts with completed bases
+- #10212 eight craftsman house drafts
+- Overworld Art's lane areas name fortress_building_redraw.py, its own redraw tool (#10034, #10212)
+
+## v0.0.29-P747
+
+- The hero view hands the portrait the motion row's share, so his boots stand above the buttons
+
+Behind the scenes:
+- The Pip library places the seven new memories and the DeskUpdate task
+- Ci-sentinel closes run with a local Continue, so an already-closed issue cannot throw past the key drop
+- A task that skips on purpose is not dead - the heartbeat audits read its skip note
+- Ci-sentinel drops the main-red key once the close succeeds or the issue is already closed
+- Build principle 6 - the AI is an operator, one short paragraph (#10329 (a), cut to Nathan's 1:03 AM scope)
+- #10034 round 3 Fortress building portrait drafts (25)
+
+## v0.0.29-P740
+
+- The Radeon 780M joins Godot's force-ANGLE list - AMD's native OpenGL driver leaks private memory per Explore 3D trip, ANGLE is flat
+
+## v0.0.29-P739
+
+- A portrait's window can reserve its bottom row, his feet stand above it
+
+Behind the scenes:
+- Decision-line-gate selftest catches the planted -R hole, and the gate reads the issue number past -R
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-infra-tech-lead-v61)
+- The Gate Auditor lane's lanes.json row
+- The raw-card-writes ratchet - raw issue writes may only fall as callers move to the Desk action layer
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-builder-v15)
+- Run-soak reads Vulkan's 'Using Device #0:' adapter banner, so a Vulkan soak is no longer ADAPTER-UNVERIFIED
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-cards-v3)
+- Lift the five 10-17 budget pins to B on the Desk lanes - A has room, and the pins said they lift once it did
+- Card-new's ready check, merge-pr's RULE 3 and the self-check store line run the installed Desk package's scripts (#10194 PR 6c)
+- Run-soak takes -RenderingMethod beside -RenderingDriver, so a Vulkan Forward+ soak can split the GL driver from the 3D path
+- The DeskUpdate contract row and dead-man for the self-updating Desk package
+- The black wolf dye reads near-black and frost white carries a cool tint
+
+## v0.0.29-P726
+
+- Bram's leftover standing stone painted out
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-infra-worker)
+- The Desk contract check runs over every open card twice a day and files a card per failing clause
+- The five Desk tasks install from the Desk package, and install-box-tasks stops re-registering the old copies
+- The soak probe samples the render server's video, texture and buffer memory per trip and per minute, and run-soak reports their per-trip series
+- Armour picker boards fit long titles and dye near-blacks true
+- The Codex image window backs off without a reset time and lets one oldest-waiter probe test a reopened window
+- A box job's sparse checkout gets its own path, so it never leaves the shared runner workspace sparse
+- A live Desk release stages release.json {version, notes from its shipped cards, critical} beside the page for the installed copy's update notice
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-infra-tech-lead-v60)
+- Desk-contract-check.py runs the Desk contract check on the Fortress cards with the Fortress vocabulary and settings
+- The label gate refuses a faceless card; RULE 4 drops a stale over-cap line
+- The label gate refuses a malformed Hill line
+- Capture skips the press of an already-active mode; depth staging split to capture_depth.gd
+- The runners' job-started hook removes a work tree a sparse checkout left sparse
+
+## v0.0.29-P711
+
+- A named mob wears its common's 3D model, and the mob standard walks every id on every path (#10267, #7247)
+- Held ready, the bow has an arrow on his string
+- Fill the black tendrils by the stalagmites with rock in the rat cave painting
+- A fight counts as a step - a mob that spawns while he fights is never calm *(fix attempt - still being verified)*
+- An empty queue keeps a standing ! on its tab; the + is retired
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-builder-v14)
+- Merge-pr trusts a Desk PR once its required check attached, never writes FETCH_HEAD in a shared tree; desk-post-publish copies tab-*.js
+- Run-soak imports a never-imported tree through run-godot-import before it takes its slot, so a fresh worktree no longer burns a 1.5 h soak on autoload parse errors
+- A shipped Preview's stack counts for nothing, and the Ship press runner polls every minute
+- Desk-render-check --live fails a page only on a card line main's page does not also fail
+- A verified staged Preview folder satisfies the desk ledger hook's receipts, so a press never re-runs the board-wide checks
+- The Light armour take turns scales and hide into soft cloth patches
+- The VCAP_DEPTH stage enters Explore through the same helper as VCAP_INTERIOR
+- The gate refuses an edit of an answered desk-ask; a Not-sure answer gets a lane reply deadline
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-auto-pc-npc-models-v36)
+- A card reopened after its newest Published / Shipped in line is before its work again, so RULE 4 asks its spec
+- Launcher-publish version-gate runs on the box with a pinned jq; hosted baseline 17 to 16
+
+## v0.0.29-P694
+
+- An active-mode re-press hands the rail toggle to the QA column solver *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Soak-pc-style / run-soak -PcStyle soaks the 2D or live hero without writing settings.cfg
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-console-v3)
+- RULE 4's wake names no priority:later card while the budget stamp reads HOT
+- Provision-bash-tools says 'jq download failed' when curl cannot reach github.com, so the payload test skips offline instead of failing script-tests
+- RULE 4 never asks a spec of a card past its work; blocked / needs-nathan cards hold no cap slot
+- The Godot tree helpers take a null start time, and capture-state reads it while the engine runs, so the reap never throws
+- Name the bow's 3-of-4 finger-loop exception as the shipped pose's limit
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqzb-auto-desk-repo)
+- Merge-pr waits on a pending required commit status and posts The-Desk's card-named by one desk-rules run, never 'failing: unknown'
+- One reader of the placement tags - DecorPlacer.placed_sprite, read by VagabondPost.figure and BarrierGates._figure_at
+- Nightly-suite report runs on the box, the first fall of the hosted-runner baseline
+- Hosted-runner ratchet - no new GitHub-hosted job, the baseline of 19 only falls
+- The Desk ship scan unpacks main's whole tree, so ship-live.py finds tools/desk_versions.py where it looks
+- Capture beat:<id> fires a story or tutorial beat the way the game does
+- Pip-exchange holds Pipsticks' inbound handoffs to our own rules and flags a Desk release nobody reported installing (#10139 B3, B4, B6)
+
+## v0.0.29-P678
+
+- The Treant's tour is planned on the physics bodies it walks against *(fix attempt - still being verified)*
+- The west gate's guards are tapped and talked to from in front of them
+
+Behind the scenes:
+- The Clock's #10193 adversarial pass - On Preview only with a live PROOF, no ladder rung reaches the console, write failures fail the heartbeat, strict reads fail closed
+- CONTRACT_VERSION is 2 and pip-library fails when it differs from the Desk schema's version
+- A RULE 4 wake is sent and acked - DETACHED_PROCESS sent nothing; DELIVERED-only ack ladder
+- Merge-pr updates a BEHIND branch once instead of waiting silently; send-to-lane lets a rotated predecessor hand off to its successor
+- A PROOF on Preview counts only at or after the first publish that carries the card (#10193 finding 4)
+- The Clock's #10193 findings 3, 5-13 - no silent skips, idempotent writes, stored deadlines and the repeating ladder, the per-card PR lookup, per-project instances, one closer
+
+## v0.0.29-P670
+
+- The swamp's painted dock painted out, so the live dock sprite is the only one
+
+Behind the scenes:
+- Fetch the Desk repo before reading its check program, and the MANIFEST writer uses the Desk's one digest function
+- The table's preview move and R-PREVIEW-PROOF - a card goes On Preview only with a live PROOF; --move-preview asks evaluate_move
+- Capture_driver's equip_hero presses his miniature (HeroThumb) - the header View it looked for was removed in #7177, so the capture hung to TIMEOUT
+- One stage to requirement table and one evaluator; Ready reads the body's Done when, and only a Ready card is in hand, starts or enters Present
+- A Pipsticks install report is checked file by file against the release MANIFEST, and the MANIFEST carries contract_version
+- The Clock never bounces a card back to Future - a queued Present or On Preview card waits where it is (#10134 step 6)
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-auto-overworld-art-v6)
+- Queue-dry counts RULE 4's workable cards, RULE 4 wakes an idle lane, and the cap is a queue
+- The Clock takes a Desk PR's title cards, its body only when the title names none, as ship-live does
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-infra-tech-lead-v59)
+- Desk-rules and the Clock read a Preview label vN-p<k> as the pair (N, k), so a proof of an older publish of the same Desk version no longer counts
+- Pip-exchange file_cards saves only a state it loaded, so a caller's own state never overwrites the ack ledger
+- A Preview marker may carry the publish counter (v281-p2); the Log row keeps reading it
+- The art-gap scan routes class art (classes/) to PC and NPC Models, not the Tech Lead fallback
+- The Pip library places the 17 sources it could not (15 rules, the Clock and the Ship runner)
+- The floor follows main - structure floor unchanged; native-coverage-baseline.json rewritten from main's measured tree
+- The Desk page sent to Pip and backed up is the stamped one, read through The-Desk's own stamp --page
+- The Clock posts a missing Started itself, as its own comment, when it moves a Desk card into work
+- The Clock gives an overdue Desk step ONE instruction to its lane, and a second miss ONE escalation to the Tech Lead
+- The brief verifier accepts the one-line morning ping as today's brief
+- The tech-lead hold's grace clock starts at the nudge
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-cards-v2)
+- The cards cache keeps a fenced desk:meta's JSON past its cut, not just the empty marker
+- The Clock reads a cite-marked Desk PR's body mentions as prose, never as cards it serves
+- The Clock is the one stage writer for project:desk cards
+- Desk-cards reads the Clock's desk-move <stage> clock marker as a Log stage row, By the Clock
+- A live Clock pass reports as a live pass, never "nothing was written"
+- The cards cache keeps a long body's machine blocks whole past its cut
+- The Clock never moves a card back off On Preview after his ship-check
+- The Clock goes live - desk-clock.py --apply is the one Desk stage writer, every 10 min
+- Token-ledger names a rotated predecessor by its own vN plus (retired), never "(v1)"
+- A lane never writes a desk-ship-request; only his Ship press does
+- The DeskShip task answers each Ship press on the Desk every 2 min
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-builder-v13)
+- The Clock reads a Desk PR's "Part of Fortress #N" as a cite and a later Hill uphill/top line as held
+- A Pipsticks request in the exchange becomes a Desk card; Desk NOTE carries install-as-shipped
+- Desk-cards --selftest pins ASKED_PRESENT to account_ceiling.py only where that reader is installed
+- Desk-sync's Clock off-flag - CLOCK_OWNS_DESK leaves project:desk stages (I1/I2) and ships (I19) to desk-clock.py
+- The Clock's dry run - each Desk card's stage from facts
+
+## v0.0.29-P630
+
+- The PC style toggle decides inside rooms too - no forced 3D indoors *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Pause RULE 4's moves from Present back to Future until the #10133 research lands
+- The face copy rule judges a title by the 8-word run only; the 70% share is the what's
+- The hourly Pip pass pushes a live Desk release that was never sent, from its release tag
+- A card's "Waits for: #N" line beats a later prose "waits on" in the same comment
+- Card-new refuses a face that copies his words or restates its title
+- The special-armour picker draws each set as cloth, leather and plate, then its colours
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-infra-tech-lead-v58)
+- A card goes On Preview only after a PROOF on Preview vN shows its Done when met
+- A bundled pick is refused, file it as -Steps
+- Desk-cards keeps a comment whole when its desk marker opens any line, so an ask written below prose and a table no longer loses its marker and fence to the 600-char thread cut
+- A Desk lane holding a card Nathan asked for in its Present runs past B's reserve
+- Three Desk builders (Work tab, Roadmap tab, Insights) and the Desk recipe rows on Sonnet (#10107, #10024)
+- The Desk flow keeps a card published on the Preview out of a Present cap
+- The scorecard's nightly count drops a skipped-duplicate run that ran no suite
+
+## v0.0.29-P614
+
+- The Treant's tour keeps off every piece's footprint, so it never wedges on a prop its plan walked through *(fix attempt - still being verified)*
+- A mob that spawns on a still hero stays calm until he steps *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Team tab's lanes builder lives in the repo as desk-lanes-tab.py
+- The PC style decides inside rooms too
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-builder-v12)
+- The prune fails closed when the \Fortress\ task read fails or lists nothing
+- The deployed lanes.json drifting from main for 30 minutes alarms on the self-check issue
+- Model-effort-check.py owns the Team row's model proposal
+- The step-4 deploy prunes scripts deleted from the repo
+- The daily brief posts one Discord ping, the brief lives on the Desk
+
+## v0.0.29-P604
+
+- Canopies cover the hero where the crown is drawn - SAM crowns plus GrabCut over the north-open cells *(fix attempt - still being verified)*
+- The three bars on Xbox Edge say what they did and teach Edge's own hold (#9910, #8888) *(fix attempt - still being verified)*
+- A tap on a character's body reaches the character, not a reach circle *(fix attempt - still being verified)*
+- Every room zooms out to 40 m across the short side, up from 24 m - the cave no longer holds him too close *(fix attempt - still being verified)*
+- Settings opens above every window, Back keeps its key, Reset at the top of Controls (#10055, #10056, #10053) *(fix attempt - still being verified)*
+- Resting in 3D shows only the camp, the hero hidden *(fix attempt - still being verified)*
+- A lurking mob sits still in the water - no walk hop, no ground shadow *(fix attempt - still being verified)*
+- The twelve Fortress building portraits Nathan kept go live, and the round-3 redraw recipe for the nine he sent back
+- The six boss chests stand one tile off their walls, in the open *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Infra Worker owns the repo's tools/box-ops/ and .github/scripts/ by areas, never the deployed dir
+- The same-surface guard, the filing limit and the one-time card sweep
+- The lanes record follows the live registry (tech-lead)
+- Desk-rules RULE 4 present cap, Ready gate, RULE 5 one tool per stage move (#10062, #10066, #10065)
+- Desk-sync never writes an ask of its own for a wait on Nathan - a question wait is handed back to its lane to write a real ask, a trigger (his look, walk, test) stays on its Waits for line, and the old empty asks are withdrawn; a cut-off gh graphql reply is retried
+- Roadmap effort back to medium + two new lanes, Infra Worker and Fort GUI 2 (#10024, #10062)
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-console-v2)
+- The card flow is enforced - worker pools, stage:preview by marker only, card-named on The-Desk PRs, a card's project is its lane's
+
+## v0.0.29-P587
+
+- Story cards above every modal (#9987) + double-click a loot tile to equip
+- A lookout's look pans there, melts the fog in a circle and pans back
+- The square at the Ascent's stair foot he stood on is rock again *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The model follows the work - every lane names its work class and model-effort-check enforces it
+- The console's new work for a lane names its card (#10020 gate 1)
+- The card log carries Preview and Ship moves from their desk-move markers
+- Every scheduled nightly runs the full suite, so any morning's main can be released
+- Desk-sync and desk-telemetry read Desk Settings; the relay is capped by time, not 3
+- Merge-pr judges a BLOCKED PR by the newest run on its head, and pushes a fresh head past a superseded red
+
+## v0.0.29-P578
+
+- Sight lights a tree band's face but never the ground past it *(fix attempt - still being verified)*
+
+Behind the scenes:
+- A suite that marks a live combat session ends it, and the suite-isolation gate holds every suite to that
+- An answered card never comes back - the gate refuses a re-ask after his question and a repeat of an answered ask
+- The desk package ships card_body and routine-yield, and MANIFEST depends marks the rest fortress-only
+- A wait on Nathan is always a card on his Work - the gate at the write, I20 as the backstop
+- The explore view contract hands the game state back, so a later suite no longer boots Explore in the cave
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqzb-auto-desk-sync)
+- A later SAFE run no longer washes an unanswered conformance CAUTION
+- The Tech Lead hold's save code is the save system, not the save toast and dialogs in scripts/ui/
+- The build-starved notice goes to its owner, the Tech Lead, not the Desk
+- Four routine self-tests follow main
+
+## v0.0.29-P567
+
+- Only one key cell listens at a time, and a listening cell shows its X to clear it *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Pipsticks exchange and the standing-issue lookup see issues older than the newest 1000
+- The art gap scan pushes its new icon batch branch by its full refname
+- The Pip library manifest places the 10-19 coverage gaps - three memory rules and the NetFailover task
+- The floor follows main - floor followed main by the weekly audit: oversized_file_lines 7131 to 7130, raw_issue_creates_off_owner 28 to 24. Every count may only fall from here.; native-coverage-baseline.json rewritten from main's measured tree
+- A gdUnit run that stops on an error before its verdict prints NO VERDICT and exits 1, never 0
+
+## v0.0.29-P561
+
+- A box-opened harness session never counts as a player crash, and a closed issue never satisfies a crash mapping
+- The launcher Web export retries once on a crash exit, so the cold-export flake no longer fails the web deploy
+
+Behind the scenes:
+- The simulated player's cap reads 1.5x a measured run from the config (2.6M), and its dump drops rows scrolled out of their pane
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-traffic-v4)
+- The nightly keeps its runner's .godot and reaps the lane 2 mirror off the clock (#8722 seam 4)
+- Queueslot:<n> / queueslot:<title prefix>:<n> - a real click on a queue slot; clicktext: shares the one _real_click
+- Full suite: duration-balanced chunks + 2-way in-script shard (11 to 38 min is suite growth; target ~21 min)
+- Drop the RDP consoles' pre-rename titles as reader aliases - the old names now resolve to nothing
+
+## v0.0.29-P553
+
+- The painted forest canopies stand in the depth sort, one record per tree run (#9873 seam B, #8716 seam 7)
+- Inside a to-scale room the minimap draws its camera box too *(fix attempt - still being verified)*
+- A standing piece reads its texture once, so the lair mouth and the Vale huts draw in the painting's own colour instead of a dark box *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Box housekeeping: 22 deployed-only executables (3 retired), 4 dead worktree registrations, dirty eval trees, 9 stale merged branches, #8172 leftovers
+- Three heartbeats stamp the real outcome - post-boot-resume, Codex review, Steward skip; HotspotPass gets a heartbeat, log and self-check row
+- Failure routers - sentinel FATAL x3 files an issue, launcher builds ride the build-streak path, art renders and runtime budget file one fingerprinted issue
+- Prune by reach - remove 5 dead files, 3 workflows' worth of cruft, in-flight read sites, the scope ledger; lane labels skip retired/paused/console rows
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-infra-tech-lead-v57)
+- The Desk card SLA honours a Waits for: #N line again - its needs-nathan list was wrapped into one element
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-auto-gui-v33)
+- Godot-quirks - a canvas_item fragment's COLOR already holds the texture, so never multiply a fresh UV sample back in
+
+## v0.0.29-P542
+
+- Fortress building portraits redrawn where each building stands - town street, the wall line, countryside or the great hall - as testing/ drafts
+- Bram is talked to from beside his whole road block, so coming back from the log he lets you west *(fix attempt - still being verified)*
+- A native room opens with the whole room on screen - entry zoom in the room's fit unit, capped at the fit *(fix attempt - still being verified)*
+- A built snapshot reveals through the one fog owner, so a map Hide map re-fogged shows again *(fix attempt - still being verified)*
+- One finger tap on the docked minimap opens the big map *(fix attempt - still being verified)*
+- The path runs through the bramble - the round 4 take in the painting, its cut-through take the bramble's cleared patch
+- Held ready, the bow's string faces his drawing hand - its own measured socket angle, rolled about the grip *(fix attempt - still being verified)*
+- The open top-bar chip leaves a 3 px gap between its rim and every cell *(fix attempt - still being verified)*
+- Hide map fogs only this map, the cave's unseen ground is covered, a mob past his light stays dark, the dark is darker (#9869 #9866 #9868 #9876) *(fix attempt - still being verified)*
+- The Rusty Hatchet is now the Rusty Throwing Axe - name and id (rusty_throwing_axe, ids follow names), art moved, save v10 rung carries old saves over *(fix attempt - still being verified)*
+- Cheat panel buttons are normal button size, in grouped sections *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Desk-sync retries a read on a dropped connection, not only a 5xx
+- Token-ledger keeps a per-file parse cache so desk-telemetry's lanes job fits its 900 s
+- BoxSelfTests gets its own installer, so the arming wire arms it instead of refusing to re-run install-box-self-check.ps1 over two live tasks
+- A sort line may slope - line_y_at and is_level, the base held west to east; every record today is level and pinned as before (#9873 seam A, #8716 seam 7)
+
+## v0.0.29-P527
+
+- The Shoot cursor is a target reticle, not the system cross
+- A framed room zooms out as far as the cave - its floor is the shared floor in the room's fit unit *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqzb-auto-desk-cards)
+- The routine self-tests run in their own daily task, BoxSelfTests at 08:00, and the daily self-check grades the result file they write
+
+## v0.0.29-P523
+
+- Kuo-toa scout lurks still - head in a ripple, no bob, one bottom row
+- The lair's cave mouth is a natural rock mouth in the painting, Nathan's take 2
+- The minimap's camera box draws the view the camera shows, not a box round the hero *(fix attempt - still being verified)*
+- A second Fortress launch is refused with no Start anyway - one copy at a time, forced (#9615, launcher v1.1.68) *(fix attempt - still being verified)*
+- A marked comment is cut in its prose only, its desk-* fences kept whole, so a long ask keeps the options and grid it is drawn from *(fix attempt - still being verified)*
+- Every Fortress building portrait redrawn in framing C, drafts for Nathan's pick
+- The big map's key - places, marks and ground (#8724 seam 3)
+
+Behind the scenes:
+- One test per card - card-new refuses a test ask whose steps hold more than one Expect: or none, desk-sync I15 reports an open one, and both skills carry the rule
+- The lanes record follows the live registry (rotate-pinned-chat a-vzqz-a-infra-tech-lead-v56)
+- The Fortress building portrait's margin of ground shows where the building stands - town inside the Fortress, the wall line, countryside outside
+- A native-coverage "camera / view" row holds hand framing - a world_node.position or .scale write - at zero, now that Explore and Defend both frame through the shared Camera2D (#9789 seam 2)
+- The lanes record follows the live registry (rotate-pinned-chat b-vzqz-b-desk-builder-v11)
+- Defend frames the keep with Explore's camera setup, world_node kept at identity, view the same (#9789 seam 1)
+- The explore-view engine line names ExploreView.view_rect() as the one read of what is on screen (#9759 seam 3)
+- What is on screen is read off the camera through ExploreView.view_rect() (#9759 seam 3)
+- The I18 stop no longer counts an Actions bot's reopen as a card coming back, so a self-reopening build-failure issue is never stopped as a needs-nathan ask (relay 0696e61f)
+
+## v0.0.29-P507
+
+- The big map opens on its own modal layer via present_modal, so the HUD's Combat Log window no longer draws over it *(fix attempt - still being verified)*
+- The Ascent's walkable floor is Nathan's own square list *(fix attempt - still being verified)*
+- The Info Bar turned off and on in one frame keeps its strip - the off detaches before it frees; strip-measuring suites build their own strip
+
+Behind the scenes:
+- The Desk telemetry writes desk/version - the newest Desk page published, from the publish gate's record - so an open older Desk learns a newer one is out (#9821, relay ee042b79)
+- An ask or card face naming a picture the Desk never received is refused - a PostToolUse hook records every id the Desk's asset store reports, card-new and the label gate check against it (relay 731a405d)
+- The equipment alert journey restores the story, alert queue and club-tutorial state it moves, so a later map swap no longer pops its leftover tutorial beat
+- The explore-view contract counts 21 cases - Defend's screen-space case of #9789 seam 0
+- Camera2D limits hold a whole-room painting, clamp_view deleted (#9759 seam 2)
+- A closed card's cache row keeps its desk:face title as ft, so the Done list no longer falls back to the raw GitHub title (relay 801401d4, #8251)
+- The daily card cap counts only a lane's own cards - his Desk notes (from-nathan) and the cards he asked for are left out, and a -FromNathan card skips it (relay ab3b19de)
+- VZQZ-B Console's every pause reply ends with Artifact open on the Desk - the rotation relay, the per-turn stamp and a stop-guard check say so (relay 415973ba)
+- A card Nathan asked for skips the daily cap (card-new -NathanAsked, his words recorded), and a desk ask whose question shares no word with the card's title is refused - the cap had pushed his band-label ask onto #9709, where his answer went to the old question (relay 9e7fb723)
+
+## v0.0.29-P494
+
+- The doors and the fortress draw their own map icons
+- The big map's QA cheat chips get their own row under the title bar, so the window fits a 390 phone *(fix attempt - still being verified)*
+- Forge portrait takes in the approved keep's painterly look - three framings drafted in testing/ for Nathan's pick before the 22 redraws
+- The cave and lair room paintings ship at 512 px in the browser - web-measured-art.txt lines take a per-picture cap, web epoch E32
+- The 16 box self-check problems - fix each or make it an Infrastructure card (Tech Lead)
+
+Behind the scenes:
+- Lock the Fortress building portrait base - framing C, the Forge take fb_c_close in the approved keep's look, is the sample every redraw matches (#8236, #9798)
+- The explore-view owners row names THE explore Camera2D as its engine and its 20-case contract (#9759 seam 1)
+- One Camera2D frames Explore, the view kept the same (#9759 seam 1)
+- Pin the explore view on screen before Camera2D takes it (#9759 seam 0)
+- A card filed without card-new draws a face - desk-cards derives one from the title and the first prose sentence, the twin of card-new's derivation
+- A pick ask presents its options - card-new and the needs-nathan label refuse a bare letter even pictured, a pointer ("as above", "#81", "take 3"), a repo picture link, and a picture ask with no face picture
+- The green-PR sweep looks past a hand-written "Merge origin/main into <branch>" tip - #9760 read as not a Claude-session PR and was skipped
+- The answer relay records an old tap with no row whose card already has a lane reply as heard, so a lost relay table no longer re-sends answers the lane already handled; one relayer per tap, the live relay marks it
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-console-v4)
+- A Working card's row carries h, its last two Hill lines, and every worker update carries one - the Desk draws the hill dot from them (#9776 B)
+- Every pick option is presented, never recalled - a label naming the thing plus a picture or one sentence of what he gets, never a bare letter or a pointer to earlier work
+- The update banner, the maxed notice and the inspect card take the one border width - 1 px rims to ROW_BORDER_WIDTH (#8504 seam B)
+- A card body with CR CR LF line ends still reads its DECISION and QUOTE lines - 133 open cards read as having none, so the SLA nudged #9713 and #9615 for a line they carried
+- A face-drawing Desk page publishes only after every open card draws clean - desk-render-check --live runs The-Desk's live-gate.py and the ledger gate needs its receipt
+- Every card carries its face - card-new and the fleet board write one desk:face line after line 1, refused when it holds a URL or markdown
+- Combat measures feet to feet, stand_point_raw_reads 22 to 7 (#8845 round 6 seam 4)
+- A pick ask carries described or pictured options - card-new writes "Label | what it does | picture", a bare letter is refused at card-new and at the needs-nathan label
+- Desk-sync reads a torn index set as it stands - a pass that died mid-write emptied the relay table and re-sent old answers
+- The Pip library carries the ladder-branch and idle-runner-restart rules (coverage 382 to 384 of 384; #8968)
+- The world-object-size row is owned - Bram left the decor path, copies none, characters_on_decor_path 0
+- The lanes record follows the live registry (rotate-pinned-chat b-fort-b-auto-refactor-ui-v11)
+- The R2 token check retries and tells a refused token from an unreachable API
+- A Desk card's named wait is the newest comment carrying a Waits-for line, so a later cross-lane mention never buries it; it lapses on Waits for: none, a stage label change, a closing PR or 7 days, and a passed By when shows Stuck "wait overdue"
+- Desk-sync I16 accepts QUOTE: none - <why> - the create gate's own line for a lane-raised ask; a bare none still reports
+- Desk card contracts held on both sides - SLA on from-nathan, -MessageFile sends, label-contract reads PS tests
+- The self-check posts only news, its state moves after the post, a dead man on its heartbeats
+- The simulated-player nightly reports a crashed persona and exits non-zero
+- Terminal names a pushed, errand-named new claude/* ref as delivered; one-line VERIFY-SUMMARY read
+- The daily commentary's unread sweep reads the REST comment counts and a writer's own re-trip no longer counts as read
+- Bram off the decor path - the Woodsman stands from woodsman_block / woodsman_pos in 2D and 3D, characters_on_decor_path 2 to 0
+- Reach and its latch measure from where he stands, stand_point_raw_reads 34 to 22 (#8845 round 6)
 
 ## v0.0.29-P457
 
