@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1631
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The row renderer drops its six copies of the default content font
+- The queue slot drops its seven copies of the default content font
+- The project text-field look sits on the engine default Theme, so modal fields wear it
+- The settings rows drop their seven copies of the default content font
+- A Button with no size reads SIZE_BUTTON from the engine default Theme
+
 ## v0.0.29-P1626
 
 - Maintenance build (no player-facing changes in this range).
