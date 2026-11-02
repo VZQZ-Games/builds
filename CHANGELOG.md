@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1595
+
+- The What's New notes fill the gear page instead of stopping halfway *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Confirmation cards and queue slots read their words from the string owners
+
 ## v0.0.29-P1588
 
 - Actions_series reaches GitHub under the pacing line *(fix attempt - still being verified)*
