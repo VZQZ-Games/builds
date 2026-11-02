@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1600
+
+- Every column rebuild keeps the categories the player closed *(fix attempt - still being verified)*
+- The desktop buildings column stops going stale; pips keep the click sound *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The queue slot's progress and button bands build in their own helpers
+
 ## v0.0.29-P1595
 
 - The What's New notes fill the gear page instead of stopping halfway *(fix attempt - still being verified)*
