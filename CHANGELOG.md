@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1626
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The default content font sits on the engine default Theme; the gear page drops its twelve copies
+- The detail, inspect, naming and top bar cards stand on the one modal host
+- The detail modal words the Builder refusal as the build picker does
+
 ## v0.0.29-P1617
 
 - Improve honours the Builder level, and a blocked header names it *(fix attempt - still being verified)*
