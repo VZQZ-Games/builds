@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1606
+
+- Cave, lair and story art leaves memory when nothing shows it *(fix attempt - still being verified)*
+- The fog tick reads decor cells from one index, not six list walks *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Ten placeholder building tabs become one class built from a strings row
+- The queue slot's title and content bands build in their own helpers
+
 ## v0.0.29-P1600
 
 - Every column rebuild keeps the categories the player closed *(fix attempt - still being verified)*
