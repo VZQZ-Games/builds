@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1617
+
+- Improve honours the Builder level, and a blocked header names it *(fix attempt - still being verified)*
+- A sync leaves a save another running copy holds *(fix attempt - still being verified)*
+- A save from a newer build keeps its bytes and the player chooses
+
+Behind the scenes:
+- Delete the uncalled _apply_initial_mode wrapper
+- HUD windows call the geometry owner directly; nine forwarders go
+
 ## v0.0.29-P1606
 
 - Cave, lair and story art leaves memory when nothing shows it *(fix attempt - still being verified)*
