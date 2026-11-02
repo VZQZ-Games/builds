@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1654
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The hero inspect content drops its two copies of the default content font
+- The new fortress dialog drops its two copies of the default content font
+- The filter bar drops its copy of the default content font
+- The spend confirmation drops its two copies of the default content font
+- Forge craft and research share one start-a-queued-job press
+- The selection card drops its two copies of the default content font
+- The inspect sheet drops its three copies of the default content font
+- The filter panel drops its three copies of the default content font
+- Reset layout and art mode share one yes/no dialog shell
+- The detail modal's stat rows drop their three copies of the default content font
+
 ## v0.0.29-P1640
 
 - The roster stills keep only the newest looks *(fix attempt - still being verified)*
