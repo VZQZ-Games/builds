@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1658
+
+- The posted heroes sheet no longer lists hidden heroes *(fix attempt - still being verified)*
+- The north road's snowbound end is painted, its drifts no longer a sprite on top
+
+Behind the scenes:
+- The Hall tab drops its copy of the default content font
+
 ## v0.0.29-P1654
 
 - Maintenance build (no player-facing changes in this range).
