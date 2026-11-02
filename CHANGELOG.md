@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1640
+
+- The roster stills keep only the newest looks *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The recruitment modal drops its three copies of the default content font
+- The battle report drops its four copies of the default content font
+- The roster screen drops its four copies of the default content font
+- The selection screen drops its four copies of the default content font
+- The alert popup drops its five copies of the default content font
+- The world encounter card drops its four copies of the default content font
+
 ## v0.0.29-P1631
 
 - Maintenance build (no player-facing changes in this range).
