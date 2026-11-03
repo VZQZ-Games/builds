@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1736
+
+- The plan-usage chart keeps weekly readings whose 5-hour window is null *(fix attempt - still being verified)*
+- The community prompt forbids widening a fact beyond the thing it names *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The PC style menu and the picker tiles take project-Theme variations published by ThemeConstants, so they follow Text Size and the palette live
+- One parent for the Fortress and Party tabs' shared block, EntityTabBase
+
 ## v0.0.29-P1719
 
 - Maintenance build (no player-facing changes in this range).
