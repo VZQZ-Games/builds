@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1707
+
+- Maintenance build (no player-facing changes in this range).
+
 ## v0.0.29-P1704
 
 - Maintenance build (no player-facing changes in this range).
