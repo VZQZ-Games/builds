@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1690
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The ThemeConstants button variations drop their copies of the default content font
+- The combat HUD overlay buttons drop their copy of the default content font
+- The entity inspect modal drops its copy of the default content font
+- The march modal drops its copy of the default content font
+- The card builder drops its copy of the default content font
+- The run control window drops its copy of the default content font
+
 ## v0.0.29-P1681
 
 - The six special belts wear the Ranger straps over armour
