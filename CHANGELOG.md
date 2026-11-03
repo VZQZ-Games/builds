@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1712
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Text-width measures read their font and size by class, so an off-tree Label resolves its theme variation
+- Row description Labels read their size from a RowDescription project-Theme variation, so a font scale change resizes them live
+
 ## v0.0.29-P1707
 
 - Maintenance build (no player-facing changes in this range).
