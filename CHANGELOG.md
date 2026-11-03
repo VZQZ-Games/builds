@@ -4,17 +4,20 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1695
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The shared look moves to the project Theme; the engine default Theme is never written
+- The cheat panel Theme drops its three copies of the default content font
+
 ## v0.0.29-P1690
 
 - Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
-- The ThemeConstants button variations drop their copies of the default content font
-- The combat HUD overlay buttons drop their copy of the default content font
-- The entity inspect modal drops its copy of the default content font
-- The march modal drops its copy of the default content font
-- The card builder drops its copy of the default content font
-- The run control window drops its copy of the default content font
+- 6 similar changes, such as: the ThemeConstants button variations drop their copies of the default content font
 
 ## v0.0.29-P1681
 
@@ -22,19 +25,7 @@ Behind the scenes:
 - A belt shows its straps only over armour *(fix attempt - still being verified)*
 
 Behind the scenes:
-- The leveling header card drops its copy of the default content font
-- The production header drops its copy of the default content font
-- The graphics mode switcher drops its 2 copies of the default content font
-- The building mode picker drops its copy of the default content font
-- The key bind row drops its copy of the default content font
-- The progression button drops its copy of the default content font
-- The cost button drops its copy of the default content font
-- The delete save dialog drops its copy of the default content font
-- The release wall between QA and production goes on the Infrastructure list, aimed at launch
-- The rename modal drops its copy of the default content font
-- The audio preview row drops its copy of the default content font
-- The email sign-in dialog drops its two copies of the default content font
-- The Barracks tab drops its copy of the default content font
+- 12 similar changes, such as: the leveling header card drops its copy of the default content font
 
 ## v0.0.29-P1658
 
@@ -49,39 +40,24 @@ Behind the scenes:
 - Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
-- The hero inspect content drops its two copies of the default content font
-- The new fortress dialog drops its two copies of the default content font
-- The filter bar drops its copy of the default content font
-- The spend confirmation drops its two copies of the default content font
+- 8 similar changes, such as: the hero inspect content drops its two copies of the default content font
 - Forge craft and research share one start-a-queued-job press
-- The selection card drops its two copies of the default content font
-- The inspect sheet drops its three copies of the default content font
-- The filter panel drops its three copies of the default content font
 - Reset layout and art mode share one yes/no dialog shell
-- The detail modal's stat rows drop their three copies of the default content font
 
 ## v0.0.29-P1640
 
 - The roster stills keep only the newest looks *(fix attempt - still being verified)*
 
 Behind the scenes:
-- The recruitment modal drops its three copies of the default content font
-- The battle report drops its four copies of the default content font
-- The roster screen drops its four copies of the default content font
-- The selection screen drops its four copies of the default content font
-- The alert popup drops its five copies of the default content font
-- The world encounter card drops its four copies of the default content font
+- 6 similar changes, such as: the recruitment modal drops its three copies of the default content font
 
 ## v0.0.29-P1631
 
 - Maintenance build (no player-facing changes in this range).
 
 Behind the scenes:
-- The row renderer drops its six copies of the default content font
-- The queue slot drops its seven copies of the default content font
+- 3 similar changes, such as: the row renderer drops its six copies of the default content font
 - The project text-field look sits on the engine default Theme, so modal fields wear it
-- The settings rows drop their seven copies of the default content font
-- A Button with no size reads SIZE_BUTTON from the engine default Theme
 
 ## v0.0.29-P1626
 
