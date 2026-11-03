@@ -4,6 +4,26 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1681
+
+- The six special belts wear the Ranger straps over armour
+- A belt shows its straps only over armour *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The leveling header card drops its copy of the default content font
+- The production header drops its copy of the default content font
+- The graphics mode switcher drops its 2 copies of the default content font
+- The building mode picker drops its copy of the default content font
+- The key bind row drops its copy of the default content font
+- The progression button drops its copy of the default content font
+- The cost button drops its copy of the default content font
+- The delete save dialog drops its copy of the default content font
+- The release wall between QA and production goes on the Infrastructure list, aimed at launch
+- The rename modal drops its copy of the default content font
+- The audio preview row drops its copy of the default content font
+- The email sign-in dialog drops its two copies of the default content font
+- The Barracks tab drops its copy of the default content font
+
 ## v0.0.29-P1658
 
 - The posted heroes sheet no longer lists hidden heroes *(fix attempt - still being verified)*
