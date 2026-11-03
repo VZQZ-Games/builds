@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1742
+
+- Maintenance build (no player-facing changes in this range).
+
 ## v0.0.29-P1736
 
 - The plan-usage chart keeps weekly readings whose 5-hour window is null *(fix attempt - still being verified)*
