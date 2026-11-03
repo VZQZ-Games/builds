@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1719
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- 3 similar changes, such as: rowName and CardTitle Label variations join _label_size_variations, and 40 row-name and card-title Labels stop copying their size
+
 ## v0.0.29-P1712
 
 - Maintenance build (no player-facing changes in this range).
