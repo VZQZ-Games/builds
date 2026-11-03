@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1704
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- 3 similar changes, such as: the combat log and detail modal rich text drop their copies of the content font
+- The gear doll drops its seven copies of the default content font
+
 ## v0.0.29-P1695
 
 - Maintenance build (no player-facing changes in this range).
