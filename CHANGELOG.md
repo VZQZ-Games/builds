@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1768
+
+- The castle's solid body starts at its walls' base, so the hero walks behind it *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The improve owner picks the maker refresh from the tab's static queue-maker identity, so a maker without its cards keeps the header and juice
+- The improve owner picks the maker refresh for a tab with production cards, so the four maker tabs' copies are deleted
+- The throne popup is the shared confirmation card
+
 ## v0.0.29-P1761
 
 - The first-slinger story picture, hand fixed, Nathan's Yes
