@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1746
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- TabBase's callers call the production-mode and split-view owners directly, 34 forwarders deleted
+- CombatHud and the management screen's callers call the drawer, edit session, overlays and badges owners directly, 31 forwarders deleted
+
 ## v0.0.29-P1742
 
 - Maintenance build (no player-facing changes in this range).
