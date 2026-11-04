@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1760
+
+- The Storage Chest gets its portrait, Nathan's Yes
+
+Behind the scenes:
+- TabBase's callers call the layout, stat, building, LockEvaluator and RowConfigBuilder owners directly, 12 forwarders deleted
+
 ## v0.0.29-P1746
 
 - Maintenance build (no player-facing changes in this range).
