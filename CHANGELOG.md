@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1814
+
+- Route the gift Archer's walk-off round the closed west lane *(fix attempt - still being verified)*
+- Every hero sheet imports VRAM-compressed with mipmaps *(fix attempt - still being verified)*
+- The bramble gate stands on the painted path and the lane round it closes *(fix attempt - still being verified)*
+- The version marker goes up after the patch
+
+Behind the scenes:
+- VRAM-compress the cave and cottage room textures
+- VRAM-compress the seven big overworld props still imported lossless
+- 3 more small changes under the hood
+
 ## v0.0.29-P1768
 
 - The castle's solid body starts at its walls' base, so the hero walks behind it *(fix attempt - still being verified)*
