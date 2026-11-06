@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1887
+
+- A shipped panel set's JSON is parsed once, and the Vale's canopies resolve its ground painting once, not per crown *(fix attempt - still being verified)*
+
 ## v0.0.29-P1881
 
 - Maintenance build (no player-facing changes in this range).
@@ -18,9 +22,9 @@ publish - do not edit by hand.
 
 ## v0.0.29-P1814
 
-- Route the gift Archer's walk-off round the closed west lane *(fix attempt - still being verified)*
+- Route the gift Archer's walk-off round the closed west lane
 - Every hero sheet imports VRAM-compressed with mipmaps *(fix attempt - still being verified)*
-- The bramble gate stands on the painted path and the lane round it closes *(fix attempt - still being verified)*
+- The bramble gate stands on the painted path and the lane round it closes
 - The version marker goes up after the patch
 
 Behind the scenes:
