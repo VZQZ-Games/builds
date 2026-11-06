@@ -4,13 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1906
+
+- A reloaded hero keeps its level-up stat gains *(fix attempt - still being verified)*
+
 ## v0.0.29-P1903
 
 - Maintenance build (no player-facing changes in this range).
 
 ## v0.0.29-P1900
 
-- A research restore replaces its topics instead of adding to them *(fix attempt - still being verified)*
+- A research restore replaces its topics instead of adding to them
 
 ## v0.0.29-P1893
 
@@ -38,7 +42,7 @@ Behind the scenes:
 ## v0.0.29-P1814
 
 - Route the gift Archer's walk-off round the closed west lane
-- Every hero sheet imports VRAM-compressed with mipmaps *(fix attempt - still being verified)*
+- Every hero sheet imports VRAM-compressed with mipmaps
 - The bramble gate stands on the painted path and the lane round it closes
 - The version marker goes up after the patch
 
