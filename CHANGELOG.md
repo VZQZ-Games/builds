@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1916
+
+- The painted-room gate checks the cave's walk mask against its painting
+
+Behind the scenes:
+- The spawn overlay drops its unfed positions list
+- The cottage room drops the retired chooser's strings
+- 2 more small changes under the hood
+
 ## v0.0.29-P1906
 
 - A reloaded hero keeps its level-up stat gains *(fix attempt - still being verified)*
