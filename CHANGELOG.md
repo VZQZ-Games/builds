@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1926
+
+- TapWalk owner walks the hero to an out-of-reach tapped thing and acts on arrival
+- The eight blueprint buildings stay out of the Builder until their research completes *(fix attempt - still being verified)*
+
 ## v0.0.29-P1923
 
 - Maintenance build (no player-facing changes in this range).
