@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1943
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- GameManager drops 22 private forwarders nothing calls
+
 ## v0.0.29-P1938
 
 - An out-of-reach barrier, vagabond or lookout tap walks the hero there and acts on arrival
