@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1921
+
+- The Archer gets an arrival card on her first fort return
+- Six tutorial lines say what the game does now *(fix attempt - still being verified)*
+- The Fighter wears his shield on his forearm and the Archer his quiver on his back
+- The defend wave tower header reads its name from GameStrings *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The arena door "!" stays up until the Fighter is rescued
+
 ## v0.0.29-P1916
 
 - The painted-room gate checks the cave's walk mask against its painting
