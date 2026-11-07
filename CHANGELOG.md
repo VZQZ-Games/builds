@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1947
+
+- Throne's four columns and the fold-to-a-spine are the desktop default, the spine shows its icon and count
+
+Behind the scenes:
+- Remove the retired email-link builders and parsers
+
 ## v0.0.29-P1943
 
 - Maintenance build (no player-facing changes in this range).
