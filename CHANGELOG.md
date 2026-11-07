@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1923
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- One family check that no content-font surface copies the content font
+- Delete the unused Vagabonds first-sight card and its painting
+
 ## v0.0.29-P1921
 
 - The Archer gets an arrival card on her first fort return
