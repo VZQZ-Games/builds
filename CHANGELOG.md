@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1951
+
+- The hero keeps his stance into 3D, a lost pinch lets go, and leaving Explore or the arena drops what it held
+
+Behind the scenes:
+- The Builder categories, the eight houses, the Throne's one level and the queue and picker labels match the game
+- Three component headers stop saying "for now" about state that lives on the host
+- The cottage walls and end caps split into small helpers, the same geometry
+
 ## v0.0.29-P1947
 
 - Throne's four columns and the fold-to-a-spine are the desktop default, the spine shows its icon and count
