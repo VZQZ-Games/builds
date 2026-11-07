@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1938
+
+- An out-of-reach barrier, vagabond or lookout tap walks the hero there and acts on arrival
+- A Copy code button beside the Send report code
+
+Behind the scenes:
+- Combat asks CombatEngine about the insta-kill cheat, not the cheat autoload
+
 ## v0.0.29-P1932
 
 - Maintenance build (no player-facing changes in this range).
@@ -24,7 +32,7 @@ Behind the scenes:
 ## v0.0.29-P1921
 
 - The Archer gets an arrival card on her first fort return
-- Six tutorial lines say what the game does now *(fix attempt - still being verified)*
+- Six tutorial lines say what the game does now
 - The Fighter wears his shield on his forearm and the Archer his quiver on his back
 - The defend wave tower header reads its name from GameStrings *(fix attempt - still being verified)*
 
