@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1977
+
+- The OAuth state and nonce come from the OS CSPRNG *(fix attempt - still being verified)*
+- The Google exchange and email-code requests time out *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Remove the uncalled PassiveMode zoom max/min handlers
+- Retire the August stranded-saves rescue now that its expiry has passed
+
 ## v0.0.29-P1970
 
 - The Actions window ends with a + cell that opens its gear popover, where the player shows or hides each action this mode offers
