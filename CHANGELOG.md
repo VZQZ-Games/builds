@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1985
+
+- An art switch mid-Defend keeps the wave and the fort, and leaving Defend closes its Equipment window
+
+Behind the scenes:
+- Remove the dead pause-menu action and retreat-confirm chain
+- Remove the dead pause-entry and retreat plumbing
+- 2 more small changes under the hood
+
 ## v0.0.29-P1977
 
 - The OAuth state and nonce come from the OS CSPRNG *(fix attempt - still being verified)*
