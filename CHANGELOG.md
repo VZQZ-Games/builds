@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1970
+
+- The Actions window ends with a + cell that opens its gear popover, where the player shows or hides each action this mode offers
+
+Behind the scenes:
+- The five gear-rename save rungs are one table, not five functions
+
 ## v0.0.29-P1968
 
 - 3D keeps his feet across the switch, follows cleared gates and moved figures, and stands rocks on the ground
