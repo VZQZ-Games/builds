@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1968
+
+- 3D keeps his feet across the switch, follows cleared gates and moved figures, and stands rocks on the ground
+- Defend damage numbers float above the target through one DamageNumber placer
+- A paused research, craft or build row resumes instead of charging again *(fix attempt - still being verified)*
+- Improve waits while the upgrade is queued, and a completion stops at max *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The equip lesson trail gets its own owner
+- The Vale's content placement splits at its seam into the resources and the mob spawns
+
 ## v0.0.29-P1961
 
 - The pool and roster chip rows wrap instead of widening the card *(fix attempt - still being verified)*
