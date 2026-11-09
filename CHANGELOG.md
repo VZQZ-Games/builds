@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2022
+
+- The details sheet, What's New and the big map float on the shared whole-screen dim
+- Update saves the run and reloads only after the storage flush lands *(fix attempt - still being verified)*
+- A reload inside a room with a story beat pending stays in the room and keeps the world paused under the popup *(fix attempt - still being verified)*
+
+Behind the scenes:
+- What a kill pays has one owner, KillRewards, in Explore and Defend
+
 ## v0.0.29-P2016
 
 - Android Back closes the top popup instead of quitting the app *(fix attempt - still being verified)*
