@@ -4,6 +4,32 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2016
+
+- Android Back closes the top popup instead of quitting the app *(fix attempt - still being verified)*
+- The phone's Fit display choice is applied, not only saved *(fix attempt - still being verified)*
+- Cancel in Customize HUD after the phone turns leaves both saved layouts as they were *(fix attempt - still being verified)*
+- A rock's or stump's camera collider stands with it and goes with it *(fix attempt - still being verified)*
+- The Game Log wires its own start-over, so a Defend-first session clears it too *(fix attempt - still being verified)*
+- A sign-out beats a late renewal, an old session's reply never strikes the new one, and the session file is written atomically *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The Scout's lines get their own strings file, ScoutStrings
+
+## v0.0.29-P2009
+
+- Enter on the web keyboard submits and frees the field, so a re-tap reopens it; Enter creates in New Fortress *(fix attempt - still being verified)*
+- Going to the background pauses the run *(fix attempt - still being verified)*
+- A death ends the run's session, closes Equipment and every world card opens over it *(fix attempt - still being verified)*
+- The Builder and research tab stop selling levels that change nothing *(fix attempt - still being verified)*
+- A death inside a cave or room also forgets the Vale resume spot, so he never comes back at its door *(fix attempt - still being verified)*
+- The fortress falling closes Equipment and the I key holds on an ended run *(fix attempt - still being verified)*
+- Waves credit while the next walks in, the panels and tallies count what landed, and the fight holds, closes and re-centres as it should *(fix attempt - still being verified)*
+- A failed sign-in shows players the friendly line only; the raw reason is dev-only and logged *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Research, production and the HP auto-invest raise a stat level through EntityData
+
 ## v0.0.29-P1999
 
 - Escape cancels Customize HUD and restores the arrangement *(fix attempt - still being verified)*
@@ -38,8 +64,8 @@ Behind the scenes:
 
 ## v0.0.29-P1977
 
-- The OAuth state and nonce come from the OS CSPRNG
-- The Google exchange and email-code requests time out
+- The OAuth state and nonce come from the OS CSPRNG *(fix attempt - still being verified)*
+- The Google exchange and email-code requests time out *(fix attempt - still being verified)*
 
 Behind the scenes:
 - Remove the uncalled PassiveMode zoom max/min handlers
