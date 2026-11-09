@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1992
+
+- Turning the phone in Defend with Equipment open keeps one window, never a second *(fix attempt - still being verified)*
+- A failed write, rename or backup never costs the live save *(fix attempt - still being verified)*
+- A pull never writes over the fortress being played - it holds it and closes the run *(fix attempt - still being verified)*
+
 ## v0.0.29-P1987
 
 - A finger landing on a cost pill to scroll a list scrolls it and buys nothing *(fix attempt - still being verified)*
@@ -22,8 +28,8 @@ Behind the scenes:
 
 ## v0.0.29-P1977
 
-- The OAuth state and nonce come from the OS CSPRNG *(fix attempt - still being verified)*
-- The Google exchange and email-code requests time out *(fix attempt - still being verified)*
+- The OAuth state and nonce come from the OS CSPRNG
+- The Google exchange and email-code requests time out
 
 Behind the scenes:
 - Remove the uncalled PassiveMode zoom max/min handlers
@@ -68,7 +74,7 @@ Behind the scenes:
 ## v0.0.29-P1953
 
 - Settings choice buttons wrap at large text so the window stays on screen
-- The big map's dim covers the whole screen like every other popup *(fix attempt - still being verified)*
+- The big map's dim covers the whole screen like every other popup
 
 ## v0.0.29-P1951
 
