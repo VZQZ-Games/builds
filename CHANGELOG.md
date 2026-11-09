@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1987
+
+- A finger landing on a cost pill to scroll a list scrolls it and buys nothing *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The hero's screen-anchor constants live on ExploreView, and the forwarder goes
+
 ## v0.0.29-P1985
 
 - An art switch mid-Defend keeps the wave and the fort, and leaving Defend closes its Equipment window
