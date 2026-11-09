@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2027
+
+- A clock set back never lets this device's own upload replace newer offline play *(fix attempt - still being verified)*
+- Tutorial fists target like every swing, a pushed mob stands through place(), an unarmed posted hero arms the tower
+- A New Fortress made while the cloud check failed never takes another device's fortress id, and a deleted fortress stays deleted *(fix attempt - still being verified)*
+- A second web tab sees the fortress as running elsewhere - the web lock carries a per-tab token *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The migration ladder moves out of SaveManager into its own owner, SaveMigrations
+
 ## v0.0.29-P2022
 
 - The details sheet, What's New and the big map float on the shared whole-screen dim
