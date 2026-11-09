@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P1999
+
+- Escape cancels Customize HUD and restores the arrangement *(fix attempt - still being verified)*
+- Escape closes Run Stats and Wave Details in Defend and Explore *(fix attempt - still being verified)*
+- One slot and one kill read singular *(fix attempt - still being verified)*
+- A menu opened while the game is paused takes taps, so Pause then the gear no longer freezes Explore and Defend *(fix attempt - still being verified)*
+- A two-finger pinch zooms the Defend battlefield
+- The Defend view re-frames the keep, zoom limit and minimap box when the phone turns or the window resizes *(fix attempt - still being verified)*
+- The open gear menu follows the phone turning and reopens on the same page, fully on screen *(fix attempt - still being verified)*
+
 ## v0.0.29-P1992
 
 - Turning the phone in Defend with Equipment open keeps one window, never a second *(fix attempt - still being verified)*
