@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2036
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The sub-view toggle draws the inherited content font, no copy
+
 ## v0.0.29-P2035
 
 - The self-heal walk starts on the cottage spawn, and a hand-driven step covers its frame time *(fix attempt - still being verified)*
@@ -31,7 +38,7 @@ Behind the scenes:
 
 ## v0.0.29-P2022
 
-- The details sheet, What's New and the big map float on the shared whole-screen dim
+- The details sheet, What's New and the big map float on the shared whole-screen dim *(fix attempt - still being verified)*
 - Update saves the run and reloads only after the storage flush lands *(fix attempt - still being verified)*
 - A reload inside a room with a story beat pending stays in the room and keeps the world paused under the popup *(fix attempt - still being verified)*
 
