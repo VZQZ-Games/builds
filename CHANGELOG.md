@@ -4,6 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2051
+
+- An open detail card keeps its width rule across a turn or a window resize *(fix attempt - still being verified)*
+- A tap on an entrance's ring or building from out of reach walks him in and acts on arrival
+
+Behind the scenes:
+- The zoom is applied through ExploreView directly, and seven ActiveMode zoom forwarders go
+- The Filter panel's three link buttons and two scope hints come from one helper each
+- The web update banner's four boxes come from one framed panel look
+
 ## v0.0.29-P2044
 
 - Each mob family has its own death cue, falling back to the shared one until its sample lands
@@ -49,7 +59,7 @@ Behind the scenes:
 
 ## v0.0.29-P2022
 
-- The details sheet, What's New and the big map float on the shared whole-screen dim *(fix attempt - still being verified)*
+- The details sheet, What's New and the big map float on the shared whole-screen dim
 - Update saves the run and reloads only after the storage flush lands *(fix attempt - still being verified)*
 - A reload inside a room with a story beat pending stays in the room and keeps the world paused under the popup *(fix attempt - still being verified)*
 
