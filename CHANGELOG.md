@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2058
+
+- Sharpening a tool keeps its level and retires a worn copy from the hero, so the player is not left with two tools or lose levelling gold
+
+Behind the scenes:
+- The cave map baker's build() splits into one helper per placement step, the same cells in the same order
+
 ## v0.0.29-P2056
 
 - The sync record is written whole through a temp file, and a save that will not open is not treated as corrupt *(fix attempt - still being verified)*
@@ -50,7 +57,7 @@ Behind the scenes:
 ## v0.0.29-P2030
 
 - A fresh email sign-in shows Signing you in until the login lands, so no local Load can mix saves into the account *(fix attempt - still being verified)*
-- Background time never counts as Played, and a hidden or closed web tab saves *(fix attempt - still being verified)*
+- Background time never counts as Played, and a hidden or closed web tab saves
 
 Behind the scenes:
 - Split the mobs' AI tick into latch, wander and chase steps
@@ -59,7 +66,7 @@ Behind the scenes:
 
 - A clock set back never lets this device's own upload replace newer offline play *(fix attempt - still being verified)*
 - Tutorial fists target like every swing, a pushed mob stands through place(), an unarmed posted hero arms the tower
-- A New Fortress made while the cloud check failed never takes another device's fortress id, and a deleted fortress stays deleted *(fix attempt - still being verified)*
+- A New Fortress made while the cloud check failed never takes another device's fortress id, and a deleted fortress stays deleted
 - A second web tab sees the fortress as running elsewhere - the web lock carries a per-tab token *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -69,15 +76,15 @@ Behind the scenes:
 
 - The details sheet, What's New and the big map float on the shared whole-screen dim
 - Update saves the run and reloads only after the storage flush lands *(fix attempt - still being verified)*
-- A reload inside a room with a story beat pending stays in the room and keeps the world paused under the popup *(fix attempt - still being verified)*
+- A reload inside a room with a story beat pending stays in the room and keeps the world paused under the popup
 
 Behind the scenes:
 - What a kill pays has one owner, KillRewards, in Explore and Defend
 
 ## v0.0.29-P2016
 
-- Android Back closes the top popup instead of quitting the app *(fix attempt - still being verified)*
-- The phone's Fit display choice is applied, not only saved *(fix attempt - still being verified)*
+- Android Back closes the top popup instead of quitting the app
+- The phone's Fit display choice is applied, not only saved
 - Cancel in Customize HUD after the phone turns leaves both saved layouts as they were *(fix attempt - still being verified)*
 - A rock's or stump's camera collider stands with it and goes with it
 - The Game Log wires its own start-over, so a Defend-first session clears it too *(fix attempt - still being verified)*
@@ -88,7 +95,7 @@ Behind the scenes:
 
 ## v0.0.29-P2009
 
-- Enter on the web keyboard submits and frees the field, so a re-tap reopens it; Enter creates in New Fortress *(fix attempt - still being verified)*
+- Enter on the web keyboard submits and frees the field, so a re-tap reopens it; Enter creates in New Fortress
 - Going to the background pauses the run *(fix attempt - still being verified)*
 - A death ends the run's session, closes Equipment and every world card opens over it *(fix attempt - still being verified)*
 - The Builder and research tab stop selling levels that change nothing *(fix attempt - still being verified)*
