@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2059
+
+- Fortress attack speed reaches armaments through one shared cooldown formula *(fix attempt - still being verified)*
+
 ## v0.0.29-P2058
 
 - Sharpening a tool keeps its level and retires a worn copy from the hero, so the player is not left with two tools or lose levelling gold
@@ -32,7 +36,7 @@ Behind the scenes:
 ## v0.0.29-P2044
 
 - Each mob family has its own death cue, falling back to the shared one until its sample lands
-- Gear the hero cannot wear shows as a locked tile, so its Equipment mark clears and it can be salvaged *(fix attempt - still being verified)*
+- Gear the hero cannot wear shows as a locked tile, so its Equipment mark clears and it can be salvaged
 - Confirming Quit on the web banks the run and closes the confirm instead of freezing the page *(fix attempt - still being verified)*
 
 Behind the scenes:
@@ -85,7 +89,7 @@ Behind the scenes:
 
 - Android Back closes the top popup instead of quitting the app
 - The phone's Fit display choice is applied, not only saved
-- Cancel in Customize HUD after the phone turns leaves both saved layouts as they were *(fix attempt - still being verified)*
+- Cancel in Customize HUD after the phone turns leaves both saved layouts as they were
 - A rock's or stump's camera collider stands with it and goes with it
 - The Game Log wires its own start-over, so a Defend-first session clears it too *(fix attempt - still being verified)*
 - A sign-out beats a late renewal, an old session's reply never strikes the new one, and the session file is written atomically *(fix attempt - still being verified)*
