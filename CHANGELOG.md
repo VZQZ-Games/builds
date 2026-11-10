@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2035
+
+- The self-heal walk starts on the cottage spawn, and a hand-driven step covers its frame time *(fix attempt - still being verified)*
+- The web save lock key carries the identity's save dir, so two identities in one browser never share a lock *(fix attempt - still being verified)*
+- One browser tab owns the fortress, so a second tab can no longer overwrite the first's saves *(fix attempt - still being verified)*
+- The Update reload and the tab-hide save reach IndexedDB through the engine FS handle the deploy publishes *(fix attempt - still being verified)*
+
 ## v0.0.29-P2030
 
 - A fresh email sign-in shows Signing you in until the login lands, so no local Load can mix saves into the account *(fix attempt - still being verified)*
