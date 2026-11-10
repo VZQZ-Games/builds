@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2044
+
+- Each mob family has its own death cue, falling back to the shared one until its sample lands
+- Gear the hero cannot wear shows as a locked tile, so its Equipment mark clears and it can be salvaged *(fix attempt - still being verified)*
+- Confirming Quit on the web banks the run and closes the confirm instead of freezing the page *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Delete the Barracks tab's dead Post, Deploy and Relieve buttons and its COMMAND branches
+- The Settings section tabs inherit the content font, no copy
+- CavePanels.build splits into backdrop, underlay, slices and shell-clear helpers, the same nodes in the same order
+
 ## v0.0.29-P2036
 
 - Maintenance build (no player-facing changes in this range).
