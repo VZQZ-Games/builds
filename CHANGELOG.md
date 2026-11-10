@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2030
+
+- A fresh email sign-in shows Signing you in until the login lands, so no local Load can mix saves into the account *(fix attempt - still being verified)*
+- Background time never counts as Played, and a hidden or closed web tab saves *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Split the mobs' AI tick into latch, wander and chase steps
+
 ## v0.0.29-P2027
 
 - A clock set back never lets this device's own upload replace newer offline play *(fix attempt - still being verified)*
