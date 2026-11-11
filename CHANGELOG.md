@@ -4,9 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2063
+
+- Maintenance build (no player-facing changes in this range).
+
 ## v0.0.29-P2059
 
-- Fortress attack speed reaches armaments through one shared cooldown formula *(fix attempt - still being verified)*
+- Fortress attack speed reaches armaments through one shared cooldown formula
 
 ## v0.0.29-P2058
 
@@ -17,7 +21,7 @@ Behind the scenes:
 
 ## v0.0.29-P2056
 
-- The sync record is written whole through a temp file, and a save that will not open is not treated as corrupt *(fix attempt - still being verified)*
+- The sync record is written whole through a temp file, and a save that will not open is not treated as corrupt
 
 Behind the scenes:
 - One AtomicFile owner writes every .tmp-and-rename file, so the save, the sync record and the failure log share one set of failure branches
@@ -25,7 +29,7 @@ Behind the scenes:
 
 ## v0.0.29-P2051
 
-- An open detail card keeps its width rule across a turn or a window resize *(fix attempt - still being verified)*
+- An open detail card keeps its width rule across a turn or a window resize
 - A tap on an entrance's ring or building from out of reach walks him in and acts on arrival
 
 Behind the scenes:
@@ -37,7 +41,7 @@ Behind the scenes:
 
 - Each mob family has its own death cue, falling back to the shared one until its sample lands
 - Gear the hero cannot wear shows as a locked tile, so its Equipment mark clears and it can be salvaged
-- Confirming Quit on the web banks the run and closes the confirm instead of freezing the page *(fix attempt - still being verified)*
+- Confirming Quit on the web banks the run and closes the confirm instead of freezing the page
 
 Behind the scenes:
 - Delete the Barracks tab's dead Post, Deploy and Relieve buttons and its COMMAND branches
@@ -54,13 +58,13 @@ Behind the scenes:
 ## v0.0.29-P2035
 
 - The self-heal walk starts on the cottage spawn, and a hand-driven step covers its frame time *(fix attempt - still being verified)*
-- The web save lock key carries the identity's save dir, so two identities in one browser never share a lock *(fix attempt - still being verified)*
-- One browser tab owns the fortress, so a second tab can no longer overwrite the first's saves *(fix attempt - still being verified)*
-- The Update reload and the tab-hide save reach IndexedDB through the engine FS handle the deploy publishes *(fix attempt - still being verified)*
+- The web save lock key carries the identity's save dir, so two identities in one browser never share a lock
+- One browser tab owns the fortress, so a second tab can no longer overwrite the first's saves
+- The Update reload and the tab-hide save reach IndexedDB through the engine FS handle the deploy publishes
 
 ## v0.0.29-P2030
 
-- A fresh email sign-in shows Signing you in until the login lands, so no local Load can mix saves into the account *(fix attempt - still being verified)*
+- A fresh email sign-in shows Signing you in until the login lands, so no local Load can mix saves into the account
 - Background time never counts as Played, and a hidden or closed web tab saves
 
 Behind the scenes:
@@ -68,10 +72,10 @@ Behind the scenes:
 
 ## v0.0.29-P2027
 
-- A clock set back never lets this device's own upload replace newer offline play *(fix attempt - still being verified)*
+- A clock set back never lets this device's own upload replace newer offline play
 - Tutorial fists target like every swing, a pushed mob stands through place(), an unarmed posted hero arms the tower
 - A New Fortress made while the cloud check failed never takes another device's fortress id, and a deleted fortress stays deleted
-- A second web tab sees the fortress as running elsewhere - the web lock carries a per-tab token *(fix attempt - still being verified)*
+- A second web tab sees the fortress as running elsewhere - the web lock carries a per-tab token
 
 Behind the scenes:
 - The migration ladder moves out of SaveManager into its own owner, SaveMigrations
@@ -79,7 +83,7 @@ Behind the scenes:
 ## v0.0.29-P2022
 
 - The details sheet, What's New and the big map float on the shared whole-screen dim
-- Update saves the run and reloads only after the storage flush lands *(fix attempt - still being verified)*
+- Update saves the run and reloads only after the storage flush lands
 - A reload inside a room with a story beat pending stays in the room and keeps the world paused under the popup
 
 Behind the scenes:
