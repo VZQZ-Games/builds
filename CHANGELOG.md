@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2077
+
+- The camp draw-off survives a killed reinforcement's freed key
+- The save keeps one earnings row per finished run, so a lifetime total can be re-added from its runs
+
+Behind the scenes:
+- ActiveMode._process calls three steps, the pending exit, the encounters and the world tick, in the same order
+
 ## v0.0.29-P2074
 
 - A story page taller than the screen scrolls and keeps Continue on screen
