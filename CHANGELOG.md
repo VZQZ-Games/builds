@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2074
+
+- A story page taller than the screen scrolls and keeps Continue on screen
+- A mob out of reach holds its run-out timer and strikes the frame it reaches the hero
+- A spare copy of a worn item offers Equip, and a Level Up on a worn item repaints the hero's Stats
+- On the web Google's button comes back after a failed login and hides behind every roster dialog
+
 ## v0.0.29-P2068
 
 - A picker card that is bought, queued or maxed loses its gold affordable dot
