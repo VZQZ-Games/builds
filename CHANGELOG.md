@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2068
+
+- A picker card that is bought, queued or maxed loses its gold affordable dot
+- Gold Find and XP Gain carry their fraction kill to kill, so a +10% find pays 10% on commons
+
+Behind the scenes:
+- The interior fog field splits into its candidates, the seen floor and the room's open view, the same cells cleared
+
 ## v0.0.29-P2064
 
 - A deleted fortress's id is retired and an offline delete is resent until the server has it
