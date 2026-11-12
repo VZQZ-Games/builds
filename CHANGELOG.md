@@ -4,9 +4,16 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2092
+
+- A guard's inspect chip and Type row name its class (Bowman, Slinger, Axe Thrower), not its person name
+- A long row name wraps to a second line instead of an ellipsis
+- Compact queue slots on a landscape window so a five-slot research queue fits 1600x900 without scrolling
+- Weapon Speed and Range, the compare delta and hero Regen keep their decimals, so a 1.4 s bow reads 1.4s and a sling-to-bow compare shows +0.4
+
 ## v0.0.29-P2086
 
-- A build finishing mid-run reaches the run, and a resume keeps walls built since the save
+- A build finishing mid-run reaches the run, and a resume keeps walls built since the save *(fix attempt - still being verified)*
 
 ## v0.0.29-P2082
 
@@ -29,14 +36,14 @@ Behind the scenes:
 
 ## v0.0.29-P2074
 
-- A story page taller than the screen scrolls and keeps Continue on screen
-- A mob out of reach holds its run-out timer and strikes the frame it reaches the hero
+- A story page taller than the screen scrolls and keeps Continue on screen *(fix attempt - still being verified)*
+- A mob out of reach holds its run-out timer and strikes the frame it reaches the hero *(fix attempt - still being verified)*
 - A spare copy of a worn item offers Equip, and a Level Up on a worn item repaints the hero's Stats
-- On the web Google's button comes back after a failed login and hides behind every roster dialog
+- On the web Google's button comes back after a failed login and hides behind every roster dialog *(fix attempt - still being verified)*
 
 ## v0.0.29-P2068
 
-- A picker card that is bought, queued or maxed loses its gold affordable dot
+- A picker card that is bought, queued or maxed loses its gold affordable dot *(fix attempt - still being verified)*
 - Gold Find and XP Gain carry their fraction kill to kill, so a +10% find pays 10% on commons
 
 Behind the scenes:
@@ -44,7 +51,7 @@ Behind the scenes:
 
 ## v0.0.29-P2064
 
-- A deleted fortress's id is retired and an offline delete is resent until the server has it
+- A deleted fortress's id is retired and an offline delete is resent until the server has it *(fix attempt - still being verified)*
 
 ## v0.0.29-P2063
 
@@ -52,7 +59,7 @@ Behind the scenes:
 
 ## v0.0.29-P2059
 
-- Fortress attack speed reaches armaments through one shared cooldown formula
+- Fortress attack speed reaches armaments through one shared cooldown formula *(fix attempt - still being verified)*
 
 ## v0.0.29-P2058
 
