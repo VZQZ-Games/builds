@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2086
+
+- A build finishing mid-run reaches the run, and a resume keeps walls built since the save
+
 ## v0.0.29-P2082
 
 - The hero's death turns the combat bed and READY pose off
