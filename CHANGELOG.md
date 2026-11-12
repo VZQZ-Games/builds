@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2096
+
+- Maintenance build (no player-facing changes in this range).
+
 ## v0.0.29-P2095
 
 - Defend weapons fire on their own cadence and the boulder splashes where it lands *(fix attempt - still being verified)*
