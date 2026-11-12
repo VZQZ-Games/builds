@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2095
+
+- Defend weapons fire on their own cadence and the boulder splashes where it lands *(fix attempt - still being verified)*
+- The loading tips say only what the game does
+
 ## v0.0.29-P2092
 
 - A guard's inspect chip and Type row name its class (Bowman, Slinger, Axe Thrower), not its person name
