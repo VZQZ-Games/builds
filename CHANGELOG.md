@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2098
+
+- A fraction of a hit point reads 1, never 0, on Health, Walls and Core
+- The hero swings and shoots on his weapon's own cooldown *(fix attempt - still being verified)*
+
 ## v0.0.29-P2096
 
 - Maintenance build (no player-facing changes in this range).
