@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2119
+
+- The Builder "!" points only at a blueprint he can start now - unlocked, listed and within the Builder's level
+- The dormant rat, the fallen soldier and Scout Piper draw in 3D, and 3D mobs face their move and strike
+- The meadow Archer never takes the road meeting's saved spot
+
+Behind the scenes:
+- The generated sounds share one WAV encoder, and a tone is a one-pitch sweep
+- The mob spawner reads the chase's flow field
+- 2 more small changes under the hood
+
 ## v0.0.29-P2110
 
 - A resumed bandit-camp fight keeps its wave under the chief, and a kill shot in the air when he falls pays before the death loss
