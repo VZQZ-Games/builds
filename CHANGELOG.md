@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2110
+
+- A resumed bandit-camp fight keeps its wave under the chief, and a kill shot in the air when he falls pays before the death loss
+- A shot landing after the keep falls is silent *(fix attempt - still being verified)*
+
+Behind the scenes:
+- The items doc matches the loot code - named gold 5x, 50 specials, 11 special weapons, the two parked weapons, and the frostling and kuo-toa set rows landed
+
 ## v0.0.29-P2103
 
 - Maintenance build (no player-facing changes in this range).
@@ -15,7 +23,7 @@ Behind the scenes:
 ## v0.0.29-P2101
 
 - The HP max rounds up with the current, so full never reads over max
-- A leashed guard he walked away from lets go and walks home *(fix attempt - still being verified)*
+- A leashed guard he walked away from lets go and walks home
 
 ## v0.0.29-P2098
 
