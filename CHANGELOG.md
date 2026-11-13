@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2101
+
+- The HP max rounds up with the current, so full never reads over max
+- A leashed guard he walked away from lets go and walks home *(fix attempt - still being verified)*
+
 ## v0.0.29-P2098
 
 - A fraction of a hit point reads 1, never 0, on Health, Walls and Core
