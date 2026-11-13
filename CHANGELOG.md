@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2143
+
+- A picked column size holds across every Command tab
+- The loot filter chip reads "Filter Weapon" and sits on the left beside LOOT, not "FITS" at the far right
+
+Behind the scenes:
+- Alert callers call GameManager.alerts directly; GameManager drops its 16 alert forwarders
+
 ## v0.0.29-P2138
 
 - The Tattered Cloth Hood wears the kit's Ranger hood in its painting's pale tan
