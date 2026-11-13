@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2138
+
+- The Tattered Cloth Hood wears the kit's Ranger hood in its painting's pale tan
+- A magnifier beside LOOT (n) searches the loot grid by name
+- Escape closes the Copy layout / Copy game data window through the one back stack *(fix attempt - still being verified)*
+- The HUD Options handle's hover is role-tagged, so the one state-colour rule derives it at build and on a live palette change *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Every 3D model stands at the height 2D draws the same piece, read from WorldScale, and the hero ratios are gone
+- Callers reach the forge through GameManager.forge, and its 20 GameManager forwarders are gone
+
 ## v0.0.29-P2131
 
 - With the Character window hidden, the equip tutorial's "!" leads through the Options drawer and its Character tick into Equipment *(fix attempt - still being verified)*
