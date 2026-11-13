@@ -4,6 +4,18 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2131
+
+- With the Character window hidden, the equip tutorial's "!" leads through the Options drawer and its Character tick into Equipment *(fix attempt - still being verified)*
+- The Equipment icon shows the new-gear mark in Defend, as it does in Explore *(fix attempt - still being verified)*
+- The six capacity topics light their Library sub-tab badge, not a main-tab id no badge reads *(fix attempt - still being verified)*
+- Every NPC has one row naming the drawing set it needs, walked by the mob standard
+- An open fight HUD follows Settings text size live and repaints on a saved palette or high-contrast change
+
+Behind the scenes:
+- The 3D layer's cottage heights read WorldScale's rows directly and its 1.0 map-to-3D factor is gone
+- Every caller reaches the hero and barracks methods on GameManager.bk, and GameManager's 18 forwarders for them are gone
+
 ## v0.0.29-P2119
 
 - The Builder "!" points only at a blueprint he can start now - unlocked, listed and within the Builder's level
