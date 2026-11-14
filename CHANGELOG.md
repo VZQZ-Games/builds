@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2154
+
+- HUD text colours are palette vars, so high contrast reaches them on a fresh and a live HUD *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Building, throne and first-event callers call GameManager.bm directly; GameManager drops its 18 bm forwarders
+- The item popup grows to fit a 2000x1150 window, centred and docked, and scrolls only when the screen is too short
+
 ## v0.0.29-P2150
 
 - A desktop production queue maker always shows column 4, the picker on its first free slot
