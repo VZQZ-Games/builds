@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2146
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- Callers reach the guards through GameManager.guards; GameManager drops its 17 guard forwarders
+- Wallet and award callers call GameManager.economy directly; GameManager drops its 14 economy forwarders
+
 ## v0.0.29-P2144
 
 - Columns 1-3 carry the size dots on every desktop tab and column 4 takes what is left
