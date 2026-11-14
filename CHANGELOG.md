@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2144
+
+- Columns 1-3 carry the size dots on every desktop tab and column 4 takes what is left
+
 ## v0.0.29-P2143
 
 - A picked column size holds across every Command tab
