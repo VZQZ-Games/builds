@@ -4,6 +4,17 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2189
+
+- Gold from salvaging gear mid-trip is never taxed on death, Retreat or Abandon *(fix attempt - still being verified)*
+- The duel fanfare ends when the player leaves and ducks the bed while it plays *(fix attempt - still being verified)*
+- The rat draws as a rat and the dying soldier lies fallen in Explore 3D
+
+Behind the scenes:
+- Pin that an art switch mid-Defend carries the field and the run totals over the reload
+- The HUD re-abut pass reads six small helpers, complexity 28 to 11, same seats
+- The Settings window's tab names, rows and bottom bar read SettingsStrings
+
 ## v0.0.29-P2180
 
 - A track preview holds the music bed and gives it back when it ends *(fix attempt - still being verified)*
