@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2194
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The World seat's cell-centre and to-cell sites go through WorldScale; two private helpers deleted
+- One reader of the web lock key inside SaveManager
+- 2 more small changes under the hood
+
 ## v0.0.29-P2189
 
 - Gold from salvaging gear mid-trip is never taxed on death, Retreat or Abandon *(fix attempt - still being verified)*
