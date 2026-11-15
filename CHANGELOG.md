@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2158
+
+- The loot card holds twice as long, its X acknowledges it, and a tap opens that piece's stats card
+
 ## v0.0.29-P2156
 
 - The Walls bar appears on the Defend screen in the run the first Walls level finishes, and a sentry equipped mid-run joins it *(fix attempt - still being verified)*
