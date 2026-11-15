@@ -4,6 +4,22 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2180
+
+- A track preview holds the music bed and gives it back when it ends *(fix attempt - still being verified)*
+- Half-point stat rows show the half point *(fix attempt - still being verified)*
+- Gear put on mid-trip refreshes the hero's max HP and regen *(fix attempt - still being verified)*
+- Build times on the Builder and improve screens include Build Speed research *(fix attempt - still being verified)*
+- A hero takes one deployment slot, refused at the owner on a second deploy *(fix attempt - still being verified)*
+- The fight holds while a story card covers it, as it does under the Abandon confirm *(fix attempt - still being verified)*
+- A shot in the air freezes while a window holds the fight *(fix attempt - still being verified)*
+- A web tab that does not hold its fortress's lock never writes, and its run ends with an open-in-another-tab notice *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Shot cadence catch-up moves verbatim into one ShotCadence owner
+- Chain_world runs one named step per world beat
+- One Defend hit path and one shared run-end owner
+
 ## v0.0.29-P2168
 
 - The road Archer walks off the moment the bandit chief falls *(fix attempt - still being verified)*
