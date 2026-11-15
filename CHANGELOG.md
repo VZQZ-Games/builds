@@ -4,6 +4,12 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2164
+
+- Throne's hero stat column - Full wider, Short names, Icons one per stat, named size dots
+- The tutorial club cannot be salvaged until the tutorial rat is slain *(fix attempt - still being verified)*
+- Art_script_gate skips a drawing line only when it draws into a mask, not any line that says "mask"
+
 ## v0.0.29-P2158
 
 - The loot card holds twice as long, its X acknowledges it, and a tap opens that piece's stats card
