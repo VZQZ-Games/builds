@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2168
+
+- The road Archer walks off the moment the bandit chief falls *(fix attempt - still being verified)*
+
+Behind the scenes:
+- Checkboxes draw the inherited content font, no copy, and join the family check
+
 ## v0.0.29-P2164
 
 - Throne's hero stat column - Full wider, Short names, Icons one per stat, named size dots
