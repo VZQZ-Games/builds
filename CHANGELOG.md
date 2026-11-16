@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2205
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The minimap's ground repaints through one function per path
+
 ## v0.0.29-P2203
 
 - Maintenance build (no player-facing changes in this range).
