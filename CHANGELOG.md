@@ -4,6 +4,14 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2213
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The gear menu's and What's New's words read MenuStrings
+- The management rows' and pickers' words read TabStrings
+
 ## v0.0.29-P2209
 
 - Maintenance build (no player-facing changes in this range).
