@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2203
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The gear doll's slot button splits up, its art builders move onto GearDropSlot
+
 ## v0.0.29-P2200
 
 - Maintenance build (no player-facing changes in this range).
