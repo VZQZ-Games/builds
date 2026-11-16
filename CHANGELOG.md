@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2218
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The assignment sheet's words read InspectStrings, the gear doll's card verbs read GearStrings
+- The selection screen's words read TabStrings, its Build verb, lock fallback and Builder name their owners
+- The assignment sheet's roster row builds from a shared row frame, a label column and an Assign button
+
 ## v0.0.29-P2213
 
 - Maintenance build (no player-facing changes in this range).
