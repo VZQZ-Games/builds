@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2209
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The city guard and armament sheets build through one slots-and-roster builder
+- The Builder picker's building pick reads its state, price, card and saved progress through named steps
+- The detail modal's words read DetailModalStrings, the gear detail's read GearStrings
+
 ## v0.0.29-P2205
 
 - Maintenance build (no player-facing changes in this range).
