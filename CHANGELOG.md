@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2231
+
+- The cave baker places the six boss chests at Nathan's cells, so a re-bake matches the shipped scene *(fix attempt - still being verified)*
+
 ## v0.0.29-P2227
 
 - Maintenance build (no player-facing changes in this range).
