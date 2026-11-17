@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2227
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The camp ambush and the NPC encounters convert cells through WorldScale; CampAmbush._cell_center deleted
+
 ## v0.0.29-P2224
 
 - Maintenance build (no player-facing changes in this range).
