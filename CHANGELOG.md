@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2223
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- The hero inspect sheet and the commander modal name a stat through StatConfig
+- StatConfig owns how a hero stat is named; the Throne column's short names and captions read it and the TabStrings copies go
+- The minimap's coords tag, settings rows, big-map card and popovers read the HUD popover theme
+
 ## v0.0.29-P2219
 
 - Maintenance build (no player-facing changes in this range).
