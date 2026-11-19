@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2256
+
+- The scout draws Simple's own stand-in, not the missing-art card
+
 ## v0.0.29-P2255
 
 - Maintenance build (no player-facing changes in this range).
