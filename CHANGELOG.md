@@ -4,6 +4,13 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2249
+
+- Maintenance build (no player-facing changes in this range).
+
+Behind the scenes:
+- _snapshot_apply_levels takes one path - the maxed tier and the arc ramp share one level rule (_arc_level) and the hero ramp moves to _snapshot_level_heroes
+
 ## v0.0.29-P2248
 
 - Maintenance build (no player-facing changes in this range).
