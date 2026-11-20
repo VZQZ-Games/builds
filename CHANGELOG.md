@@ -4,6 +4,10 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2260
+
+- Command > Fortress and Camp get Full, Dense and Icons content sizes
+
 ## v0.0.29-P2259
 
 - The Throne Icons size is icons alone - no caption under a tile, Move, Range, HP, Regen and Attack Speed wear shipped art, an immunity carries a shield mark
