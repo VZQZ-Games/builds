@@ -4,6 +4,21 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2285
+
+- A size dot picks its own size; a tap on the rest of the dots' strip steps 1, 2, 3, 1
+- RENDER-EXEMPT leads with a kind from a closed list; no-pixel-change names its pin *(fix attempt - still being verified)*
+- With the world Range Ring off, the hero's ring rays are cast only when the minimap reads them, not on every step
+- One table decides each picture's shipped size, native and web *(fix attempt - still being verified)*
+- Sign-in guesses and code sends are counted in D1, so parallel guesses and a new code no longer beat the limit
+- The hero, unit and building detail section headers follow Text Size through a SectionHeader Label variation, as Nathan answered Yes
+- The Tattered Cloth Hood shows no hood on the hero again, as Nathan answered No
+
+Behind the scenes:
+- The entrance and ring rows are built once, not on every step
+- The top bar's wallet fit splits into measure, expansion room and chip ladder, same order and values
+- 3 more small changes under the hood
+
 ## v0.0.29-P2260
 
 - Command > Fortress and Camp get Full, Dense and Icons content sizes
@@ -22,7 +37,7 @@ publish - do not edit by hand.
 
 ## v0.0.29-P2252
 
-- Pin the hero's HP bar on a mid-trip +HP equip
+- Pin the hero's HP bar on a mid-trip +HP equip *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The roster rows' Details guard finds its button by node name, never by its words
