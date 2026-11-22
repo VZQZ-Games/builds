@@ -4,6 +4,11 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2287
+
+- The autosave toast says when a save stays on this device or is refused, instead of Fortress saved
+- The Command header's status lines wrap whole at the Dense size instead of cutting off with "..."
+
 ## v0.0.29-P2285
 
 - A size dot picks its own size; a tap on the rest of the dots' strip steps 1, 2, 3, 1
@@ -12,7 +17,7 @@ publish - do not edit by hand.
 - One table decides each picture's shipped size, native and web *(fix attempt - still being verified)*
 - Sign-in guesses and code sends are counted in D1, so parallel guesses and a new code no longer beat the limit
 - The hero, unit and building detail section headers follow Text Size through a SectionHeader Label variation, as Nathan answered Yes
-- The Tattered Cloth Hood shows no hood on the hero again, as Nathan answered No
+- The Tattered Cloth Hood shows no hood on the hero again, as Nathan answered No *(fix attempt - still being verified)*
 
 Behind the scenes:
 - The entrance and ring rows are built once, not on every step
@@ -29,7 +34,7 @@ Behind the scenes:
 
 ## v0.0.29-P2256
 
-- The scout draws Simple's own stand-in, not the missing-art card
+- The scout draws Simple's own stand-in, not the missing-art card *(fix attempt - still being verified)*
 
 ## v0.0.29-P2255
 
