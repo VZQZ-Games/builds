@@ -4,6 +4,15 @@ Cumulative per-build release notes, newest first. REGENERATED from the
 release bodies by .github/scripts/repair_release_notes.py on every
 publish - do not edit by hand.
 
+## v0.0.29-P2296
+
+- Every Vale mob spawns at its own Explore spawn point each wave, bosses every 10th wave, randoms on their per-wave chance
+- Enemies spawn at the Vale's Explore spawn points, the same set every wave
+- The wolf and alpha wolf walk, face you or away and keel over when they die
+- Flag writes never push a rollback record out of the save history *(fix attempt - still being verified)*
+- Cost-reduction topics lower real prices, Party cap topics raise their caps, the bonus text says 5%
+- Keeping an unreadable device copy is refused, and a pick whose write fails holds the fortress again *(fix attempt - still being verified)*
+
 ## v0.0.29-P2287
 
 - The autosave toast says when a save stays on this device or is refused, instead of Fortress saved
